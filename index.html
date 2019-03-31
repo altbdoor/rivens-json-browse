@@ -58,7 +58,7 @@
                         <td data-title="'Weapon'" class="weapon-col-width" sortable="'compatibility'" filter="{compatibility: 'text'}">
                             {{ riven.compatibility }}
                         </td>
-                        <td data-title="'Rerolled'" class="min-col-width" sortable="'rerolled'">
+                        <td data-title="'Rerolled'" class="min-col-width" sortable="'rerolled'" filter="{rerolled: 'custom/rerolled'}">
                             <span ng-show="riven.rerolled" class="badge badge-success">Yes</span>
                             <span ng-show="!riven.rerolled" class="badge badge-danger">No</span>
                         </td>
@@ -104,6 +104,16 @@
                             </ul>
                         </div>
                     </div>
+                </script>
+
+                <script type="text/ng-template" id="custom/rerolled">
+                    <select ng-table-select-filter-ds="$column"
+                            ng-model="params.filter()[name]"
+                            class="filter filter-select form-control" name="{{ name }}">
+                        <option value="">Both</option>
+                        <option ng-value="true">Yes</option>
+                        <option ng-value="false">No</option>
+                    </select>
                 </script>
             </div>
         </div>

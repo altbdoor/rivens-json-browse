@@ -56,7 +56,6 @@
                             filterOptions: { filterFn: customFilter },
                         }
                     );
-                    window.xxx = vm.tableParams;
 
                 }).catch(() => {
                     vm.failed = true
@@ -81,6 +80,10 @@
                         return (itemCompat.indexOf(filterCompat) !== -1)
                     })
                 })
+
+                if (typeof filterValues.rerolled !== 'undefined') {
+                    filteredData = filteredData.filter((item) => item.rerolled === filterValues.rerolled)
+                }
 
                 return filteredData
             }
