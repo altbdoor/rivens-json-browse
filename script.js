@@ -30,7 +30,7 @@
             getRivens(vm.selectedPlatform)
 
             function getRivens (platform) {
-                const url = `http://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivens${platform}.json`
+                const url = `https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivens${platform}.json`
                 vm.loading = true
                 vm.failed = false
 
