@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rivens JSON Browse</title>
+
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container py-3">
+        <h1>Rivens JSON Browse</h1>
+
+        <p>
+            This website downloads and presents the JSON data on Warframe Rivens
+            in a nice, tabular format, for easier filtering and searching. You
+            can find out more about the JSON data in the <a href="https://forums.warframe.com/topic/1077490-riven-trading-toolbuilders-phase-1/">
+            forum announcement</a>.
+        </p>
+
+        <p>
+            Below are the description of each column name, along with the data
+            key in JSON, if you are interested.
+        </p>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-sm table-hover">
+                <thead>
+                    <tr>
+                        <th>Column name</th>
+                        <th>JSON data key</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Type</td>
+                        <td><code>itemType﻿</code></td>
+                        <td>What type of Riven is it?</td>
+                    </tr>
+                    <tr>
+                        <td>Weapon</td>
+                        <td><code>compatibility</code></td>
+                        <td>Which Weapon is the Riven for?</td>
+                    </tr>
+                    <tr>
+                        <td>Rerolled</td>
+                        <td><code>rerolled</code></td>
+                        <td>Has it been rolled or unrolled (true/false)?</td>
+                    </tr>
+                    <tr>
+                        <td>Avg</td>
+                        <td><code>avg</code></td>
+                        <td>Average value of trades with this Riven Type.</td>
+                    </tr>
+                    <tr>
+                        <td>StdDev</td>
+                        <td><code>stddev</code></td>
+                        <td>The average variation in the prices that the Riven trades for.</td>
+                    </tr>
+                    <tr>
+                        <td>Min</td>
+                        <td><code>min</code></td>
+                        <td>Lowest amount of Platinum per trade of this Riven Type.</td>
+                    </tr>
+                    <tr>
+                        <td>Max</td>
+                        <td><code>max</code></td>
+                        <td>Highest amount of Platinum per trade of this Riven Type.</td>
+                    </tr>
+                    <tr>
+                        <td>Pop</td>
+                        <td><code>pop</code></td>
+                        <td>Popularity of this Riven Type being traded within all traded Rivens. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>
+            The source code for this project can be found on <a href="https://github.com/altbdoor/rivens-json-browse">
+            GitHub</a>.
+        </p>
+
+        <p>
+            Click <a href="./">here</a> to go back to the browser.
+        </p>
+    </div>
+</body>
+</html>

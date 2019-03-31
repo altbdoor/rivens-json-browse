@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rivens JSON Browse</title>
+
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ng-table@3.0.1/bundles/ng-table.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body ng-app="RivensBrowseApp">
+    <div class="container py-3" ng-controller="RivensBrowseController as vm">
+        <div class="row justify-content-center mb-2">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Platform:</span>
+                    </div>
+                    <select class="form-control" ng-model="vm.selectedPlatform" ng-change="vm.getRivens(vm.selectedPlatform)">
+                        <option ng-repeat="platform in vm.platforms" ng-value="platform.value">
+                            {{ platform.name }}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div ng-show="vm.loading">
+            <div class="row justify-content-center mb-2">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="alert alert-info text-center">
+                        Loading Rivens data...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="!vm.loading">
+            <div ng-show="vm.failed">
+                <div class="row justify-content-center mb-2">
+                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                        <div class="alert alert-danger text-center">
+                            Failed to load Rivens data!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive" ng-show="!vm.failed">
+                <p class="small mb-2 text-center">
+                    Showing {{ vm.tableParams.total() }} Rivens data. <a href="./help.html">Need help?</a>
+                </p>
+
+                <table ng-table="vm.tableParams" class="table table-striped table-sm table-hover" show-filter="true" template-pagination="custom/pager">
+                    <tr ng-repeat="riven in $data">
+                        <td data-title="'Type'" class="type-col-width" sortable="'itemType'" filter="{itemType: 'text'}">
+                            {{ riven.itemType }}
+                        </td>
+                        <td data-title="'Weapon'" class="weapon-col-width" sortable="'compatibility'" filter="{compatibility: 'text'}">
+                            {{ riven.compatibility }}
+                        </td>
+                        <td data-title="'Rerolled'" class="min-col-width" sortable="'rerolled'">
+                            <span ng-show="riven.rerolled" class="badge badge-success">Yes</span>
+                            <span ng-show="!riven.rerolled" class="badge badge-danger">No</span>
+                        </td>
+                        <td data-title="'Avg'" class="text-right min-col-width" sortable="'avg'">
+                            {{ riven.avg | number: 2 }}
+                        </td>
+                        <td data-title="'StdDev'" class="text-right min-col-width" sortable="'stddev'">
+                            {{ riven.stddev | number: 2 }}
+                        </td>
+                        <td data-title="'Min'" class="text-right number-col-width" sortable="'min'" filter="{min: 'number'}">
+                            {{ riven.min | number }}
+                        </td>
+                        <td data-title="'Max'" class="text-right number-col-width" sortable="'max'" filter="{max: 'number'}">
+                            {{ riven.max | number }}
+                        </td>
+                        <td data-title="'Pop'" class="text-right min-col-width" sortable="'pop'">
+                            {{ riven.pop | number: 2 }}
+                        </td>
+                    </tr>
+                </table>
+
+                <script type="text/ng-template" id="custom/pager">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-6">
+                            <ul class="pagination mb-0" ng-show="pages.length">
+                                <li class="page-item" ng-class="{'disabled': !page.active && !page.current, 'active': page.current}" ng-repeat="page in pages" ng-switch="page.type">
+                                    <a class="page-link" ng-switch-when="prev" ng-click="params.page(page.number)" href="">&laquo;</a>
+                                    <a class="page-link" ng-switch-when="first" ng-click="params.page(page.number)" href="">{{ page.number }}</a>
+                                    <a class="page-link" ng-switch-when="page" ng-click="params.page(page.number)" href="">{{ page.number }}</a>
+                                    <a class="page-link" ng-switch-when="more" ng-click="params.page(page.number)" href="">&#8230;</a>
+                                    <a class="page-link" ng-switch-when="last" ng-click="params.page(page.number)" href="">{{ page.number }}</a>
+                                    <a class="page-link" ng-switch-when="next" ng-click="params.page(page.number)" href="">&raquo;</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 d-none d-md-block" ng-show="params.settings().counts.length">
+                            <ul class="pagination mb-0 justify-content-end">
+                                <li ng-repeat="size in params.settings().counts" class="page-item" ng-class="{'active': params.count() === size}">
+                                    <a href="" class="page-link" ng-click="params.count(size)">
+                                        {{ size }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+
+        <ul class="list-inline text-center small mt-3">
+            <li class="list-inline-item"><a href="https://github.com/altbdoor/rivens-json-browse">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://angularjs.org/">AngularJS</a></li>
+            <li class="list-inline-item"><a href="https://getbootstrap.com/">Bootstrap</a></li>
+            <li class="list-inline-item"><a href="http://ng-table.com/">ngTable</a></li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/angular@1.7.8/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ng-table@3.0.1/bundles/ng-table.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
