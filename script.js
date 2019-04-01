@@ -22,6 +22,7 @@
 
             vm.loading = false
             vm.failed = false
+            vm.lastModified = ''
 
             vm.getRivens = getRivens
 
@@ -35,6 +36,8 @@
                 vm.failed = false
 
                 $http.get(url).then((res) => {
+                    vm.lastModified = res.headers('last-modified')
+
                     const rivens = res.data.map((riven) => {
                         if (!riven.compatibility) {
                             riven.compatibility = '-- N/A --'
