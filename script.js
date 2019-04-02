@@ -38,12 +38,26 @@
                 $http.get(url).then((res) => {
                     vm.lastModified = res.headers('last-modified')
 
+                    const rivenPopAsc = res.data.sort((a, b) => a.pop > b.pop)
+                    const oneSoldRiven = rivenPopAsc.filter((riven) => {
+                        return (riven.min === riven.max && riven.min === riven.avg && riven.stddev === 0)
+                    })
+
+                    let popRatio = 1
+                    if (oneSoldRiven.length > 0) {
+                        popRatio = 1 / oneSoldRiven[0].pop
+                    }
+                    else if (rivenPopAsc.length > 0) {
+                        popRatio = 1 / rivenPopAsc[0].pop
+                    }
+
                     const rivens = res.data.map((riven) => {
                         if (!riven.compatibility) {
-                            riven.compatibility = '-- N/A --'
+                            riven.compatibility = '-- Veiled --'
                         }
 
                         riven.itemType = riven.itemType.replace('Riven Mod', '')
+                        riven.estSold = riven.pop * popRatio
                         return riven
                     })
 

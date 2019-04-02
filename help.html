@@ -74,6 +74,28 @@
                         <td><code>pop</code></td>
                         <td>Popularity of this Riven Type being traded within all traded Rivens. </td>
                     </tr>
+                    <tr>
+                        <td>Est. Sold</td>
+                        <td>N/A</td>
+                        <td>
+                            <p>
+                                This is a derived value, based on the <a href="https://www.reddit.com/r/Warframe/comments/b88r1l/i_updated_the_riven_trade_data_spreadsheet_with/ejwmb6s/">
+                                comment from /u/ghoust4</a> on how to estimate
+                                the amount of Rivens sold.
+                            </p>
+                            <p>
+                                It makes an assumption that a Riven with the
+                                same min, max, and average, with standard
+                                deviation of zero, <b>should</b> only have one
+                                Riven sold.
+                            </p>
+                            <p>
+                                From there, a ratio can be calculated based on
+                                the popularity, and the formula is applied
+                                across all the other Rivens.
+                            </p>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
