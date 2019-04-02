@@ -8,8 +8,8 @@
     ])
 
     .controller('RivensBrowseController', [
-        '$http', '$q', 'NgTableParams',
-        function($http, $q, NgTableParams) {
+        '$http', 'NgTableParams', '$scope', 'ngTableEventsChannel',
+        function($http, NgTableParams, $scope, ngTableEventsChannel) {
             const vm = this
 
             vm.platforms = [
@@ -25,6 +25,7 @@
             vm.lastModified = ''
 
             vm.getRivens = getRivens
+            ngTableEventsChannel.onPagesChanged(onPageChange, $scope)
 
             // =====
 
@@ -103,6 +104,10 @@
                 }
 
                 return filteredData
+            }
+
+            function onPageChange () {
+                window.scrollTo(0, 0)
             }
         }
     ])
