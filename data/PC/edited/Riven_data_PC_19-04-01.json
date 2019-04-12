@@ -15,8 +15,8 @@
         "pop_diff": 0.3887999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 241.00740740740707
+        "sales": 1114.074074074074,
+        "sale_diff": 241.00740740740707
     },
     {
         "itemType": "Melee Riven Mod",
@@ -34,8 +34,8 @@
         "pop_diff": 1.3507999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 794.7851851851847
+        "sales": 3445.1851851851848,
+        "sale_diff": 794.7851851851847
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -53,8 +53,8 @@
         "pop_diff": 0.8796999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 480.98518518518495
+        "sales": 1877.5185185185185,
+        "sale_diff": 480.98518518518495
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -72,8 +72,8 @@
         "pop_diff": 1.6361999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 954.7444444444445
+        "sales": 4093.4444444444443,
+        "sale_diff": 954.7444444444445
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -91,8 +91,8 @@
         "pop_diff": 0.23929999999999918,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 164.87407407407386
+        "sales": 851.074074074074,
+        "sale_diff": 164.87407407407386
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -110,8 +110,8 @@
         "pop_diff": 0.6644000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 386.2851851851851
+        "sales": 1648.1851851851852,
+        "sale_diff": 386.2851851851851
     },
     {
         "itemType": "Melee Riven Mod",
@@ -129,8 +129,8 @@
         "pop_diff": -0.030200000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -8.844444444444449
+        "sales": 12.222222222222221,
+        "sale_diff": -8.844444444444449
     },
     {
         "itemType": "Melee Riven Mod",
@@ -148,8 +148,8 @@
         "pop_diff": 0.004700000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740744
+        "sales": 5.0740740740740735,
+        "sale_diff": 2.0740740740740744
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -167,8 +167,8 @@
         "pop_diff": -0.010000000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.9259259259259274
+        "sales": 4.0740740740740735,
+        "sale_diff": -2.9259259259259274
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -186,8 +186,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 3.0370370370370376,
+        "sale_diff": 0
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -205,8 +205,8 @@
         "pop_diff": 0.13660000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 58.07037037037037
+        "sales": 125.37037037037038,
+        "sale_diff": 58.07037037037037
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -224,8 +224,8 @@
         "pop_diff": 0.09959999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 41.35185185185185
+        "sales": 81.51851851851852,
+        "sale_diff": 41.35185185185185
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -243,8 +243,8 @@
         "pop_diff": 0.0237,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.566666666666663
+        "sales": 36.66666666666667,
+        "sale_diff": 11.566666666666663
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -262,8 +262,8 @@
         "pop_diff": 0.009199999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.529629629629632
+        "sales": 34.62962962962963,
+        "sale_diff": 6.529629629629632
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -281,8 +281,8 @@
         "pop_diff": 0.002799999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.377777777777773
+        "sales": 24.444444444444443,
+        "sale_diff": 3.377777777777773
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -300,8 +300,8 @@
         "pop_diff": 0.0045000000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 6.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -319,8 +319,8 @@
         "pop_diff": -0.00660000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.603703703703701
+        "sales": 108.03703703703704,
+        "sale_diff": 8.603703703703701
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -338,8 +338,8 @@
         "pop_diff": -0.020100000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.525925925925947
+        "sales": 172.25925925925927,
+        "sale_diff": 10.525925925925947
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -357,8 +357,8 @@
         "pop_diff": 0.00010000000000000286,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 1.151851851851852
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -376,8 +376,8 @@
         "pop_diff": 0.004700000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740744
+        "sales": 5.0740740740740735,
+        "sale_diff": 2.0740740740740744
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -395,8 +395,8 @@
         "pop_diff": -0.0232,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.57407407407408
+        "sales": 31.59259259259259,
+        "sale_diff": -4.57407407407408
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -414,8 +414,8 @@
         "pop_diff": -0.015100000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.6925925925925966
+        "sales": 23.40740740740741,
+        "sale_diff": -2.6925925925925966
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -433,8 +433,8 @@
         "pop_diff": -0.020699999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.537037037037038
+        "sales": 33.62962962962963,
+        "sale_diff": -3.537037037037038
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -452,8 +452,8 @@
         "pop_diff": -0.0030999999999999917,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.18888888888888644
+        "sales": 12.222222222222221,
+        "sale_diff": 0.18888888888888644
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -471,8 +471,8 @@
         "pop_diff": -0.001700000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.6111111111111
+        "sales": 41.77777777777777,
+        "sale_diff": 3.6111111111111
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -490,8 +490,8 @@
         "pop_diff": -0.0028999999999999894,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.1518518518518519
+        "sales": 11.185185185185185,
+        "sale_diff": 0.1518518518518519
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -509,8 +509,8 @@
         "pop_diff": 0.007000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.611111111111114
+        "sales": 42.777777777777786,
+        "sale_diff": 6.611111111111114
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -528,8 +528,8 @@
         "pop_diff": 0.021600000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.681481481481484
+        "sales": 44.81481481481481,
+        "sale_diff": 11.681481481481484
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -547,8 +547,8 @@
         "pop_diff": 0.02259999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.607407407407393
+        "sales": 40.74074074074074,
+        "sale_diff": 11.607407407407393
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -566,8 +566,8 @@
         "pop_diff": -0.007199999999999984,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.574074074074062
+        "sales": 39.74074074074074,
+        "sale_diff": 1.574074074074062
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -585,8 +585,8 @@
         "pop_diff": 0.0317,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.296296296296294
+        "sales": 17.296296296296294,
+        "sale_diff": 12.296296296296294
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -604,8 +604,8 @@
         "pop_diff": 0.0022000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 1.0370370370370372
     },
     {
         "itemType": "Melee Riven Mod",
@@ -623,8 +623,8 @@
         "pop_diff": -0.017300000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.7296296296296347
+        "sales": 20.37037037037037,
+        "sale_diff": -3.7296296296296347
     },
     {
         "itemType": "Melee Riven Mod",
@@ -642,8 +642,8 @@
         "pop_diff": -0.001800000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 7.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -661,8 +661,8 @@
         "pop_diff": -0.05070000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.729629629629613
+        "sales": 91.70370370370371,
+        "sale_diff": -7.729629629629613
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -680,8 +680,8 @@
         "pop_diff": -0.026699999999999946,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.185185185185162
+        "sales": 150.85185185185185,
+        "sale_diff": 6.185185185185162
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -699,8 +699,8 @@
         "pop_diff": -0.0049999999999999906,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.2666666666666657
+        "sales": 19.333333333333336,
+        "sale_diff": 0.2666666666666657
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -718,8 +718,8 @@
         "pop_diff": 0.015,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.222222222222221
+        "sales": 12.222222222222221,
+        "sale_diff": 6.222222222222221
     },
     {
         "itemType": "Melee Riven Mod",
@@ -737,8 +737,8 @@
         "pop_diff": 0.015199999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.185185185185187
+        "sales": 11.185185185185185,
+        "sale_diff": 6.185185185185187
     },
     {
         "itemType": "Melee Riven Mod",
@@ -756,8 +756,8 @@
         "pop_diff": 0.0049999999999999975,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740726
+        "sales": 4.0740740740740735,
+        "sale_diff": 2.0740740740740726
     },
     {
         "itemType": "Melee Riven Mod",
@@ -775,8 +775,8 @@
         "pop_diff": 0.0006000000000000033,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.1148148148148138
+        "sales": 9.148148148148147,
+        "sale_diff": 1.1148148148148138
     },
     {
         "itemType": "Melee Riven Mod",
@@ -794,8 +794,8 @@
         "pop_diff": -0.010000000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.9259259259259274
+        "sales": 4.0740740740740735,
+        "sale_diff": -2.9259259259259274
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -813,8 +813,8 @@
         "pop_diff": -0.015500000000000014,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.1888888888888687
+        "sales": 83.55555555555554,
+        "sale_diff": 3.1888888888888687
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -832,8 +832,8 @@
         "pop_diff": 0.09030000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 50.07777777777778
+        "sales": 199.77777777777777,
+        "sale_diff": 50.07777777777778
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -851,8 +851,8 @@
         "pop_diff": 0.000800000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.303703703703704
+        "sales": 20.37037037037037,
+        "sale_diff": 2.303703703703704
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -870,8 +870,8 @@
         "pop_diff": 0.004899999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.262962962962959
+        "sales": 16.296296296296294,
+        "sale_diff": 3.262962962962959
     },
     {
         "itemType": "Melee Riven Mod",
@@ -889,8 +889,8 @@
         "pop_diff": 0.006500000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.648148148148138
+        "sales": 44.81481481481481,
+        "sale_diff": 6.648148148148138
     },
     {
         "itemType": "Melee Riven Mod",
@@ -908,8 +908,8 @@
         "pop_diff": 0.013600000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.262962962962959
+        "sales": 17.296296296296294,
+        "sale_diff": 6.262962962962959
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -927,8 +927,8 @@
         "pop_diff": 0.015199999999999991,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.529629629629632
+        "sales": 34.62962962962963,
+        "sale_diff": 8.529629629629632
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -946,8 +946,8 @@
         "pop_diff": -0.013900000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9222222222222243
+        "sales": 7.111111111111111,
+        "sale_diff": -3.9222222222222243
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -965,8 +965,8 @@
         "pop_diff": -0.006099999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.2222222222222
+        "sales": 82.55555555555554,
+        "sale_diff": 6.2222222222222
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -984,8 +984,8 @@
         "pop_diff": -0.022800000000000042,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2666666666666515
+        "sales": 88.66666666666666,
+        "sale_diff": 1.2666666666666515
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1003,8 +1003,8 @@
         "pop_diff": -0.0116,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.5037037037037067
+        "sales": 33.62962962962963,
+        "sale_diff": -0.5037037037037067
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1022,8 +1022,8 @@
         "pop_diff": -0.017799999999999983,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.6925925925925966
+        "sales": 22.407407407407405,
+        "sale_diff": -3.6925925925925966
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1041,8 +1041,8 @@
         "pop_diff": -0.025599999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.4592592592592695
+        "sales": 40.74074074074074,
+        "sale_diff": -4.4592592592592695
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1060,8 +1060,8 @@
         "pop_diff": 0.03360000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 18.025925925925918
+        "sales": 68.25925925925925,
+        "sale_diff": 18.025925925925918
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1079,8 +1079,8 @@
         "pop_diff": -0.019600000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.577777777777772
+        "sales": 29.555555555555554,
+        "sale_diff": -3.577777777777772
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1098,8 +1098,8 @@
         "pop_diff": 0.009000000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.340740740740742
+        "sales": 23.40740740740741,
+        "sale_diff": 5.340740740740742
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1117,8 +1117,8 @@
         "pop_diff": 0.008300000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.414814814814811
+        "sales": 26.481481481481477,
+        "sale_diff": 5.414814814814811
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1136,8 +1136,8 @@
         "pop_diff": 0.0235,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.25925925925926
+        "sales": 14.25925925925926,
+        "sale_diff": 9.25925925925926
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -1155,8 +1155,8 @@
         "pop_diff": 0.019600000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 14.177777777777777
+        "sales": 76.44444444444444,
+        "sale_diff": 14.177777777777777
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -1174,8 +1174,8 @@
         "pop_diff": 0.0050000000000000044,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.418518518518518
+        "sales": 27.518518518518523,
+        "sale_diff": 4.418518518518518
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1193,8 +1193,8 @@
         "pop_diff": -0.0121,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.6925925925925966
+        "sales": 23.40740740740741,
+        "sale_diff": -1.6925925925925966
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1212,8 +1212,8 @@
         "pop_diff": 0.0232,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.25925925925926
+        "sales": 15.25925925925926,
+        "sale_diff": 9.25925925925926
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1231,8 +1231,8 @@
         "pop_diff": -0.10700000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -26.903703703703712
+        "sales": 87.62962962962963,
+        "sale_diff": -26.903703703703712
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1250,8 +1250,8 @@
         "pop_diff": -0.07899999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -15.529629629629625
+        "sales": 108.03703703703704,
+        "sale_diff": -15.529629629629625
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1269,8 +1269,8 @@
         "pop_diff": -0.010699999999999987,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.9555555555555486
+        "sales": 65.22222222222223,
+        "sale_diff": 2.9555555555555486
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1288,8 +1288,8 @@
         "pop_diff": 0.021899999999999975,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 14.025925925925918
+        "sales": 67.25925925925927,
+        "sale_diff": 14.025925925925918
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1307,8 +1307,8 @@
         "pop_diff": -0.0155,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.8444444444444468
+        "sales": 13.222222222222223,
+        "sale_diff": -3.8444444444444468
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1326,8 +1326,8 @@
         "pop_diff": 0.0157,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 6.148148148148147
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -1345,8 +1345,8 @@
         "pop_diff": -0.0373,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.114814814814828
+        "sales": 63.18518518518518,
+        "sale_diff": -6.114814814814828
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -1364,8 +1364,8 @@
         "pop_diff": -0.05999999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -10.725925925925935
+        "sales": 92.74074074074075,
+        "sale_diff": -10.725925925925935
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1383,8 +1383,8 @@
         "pop_diff": 0.0175,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.2592592592592595
+        "sales": 14.25925925925926,
+        "sale_diff": 7.2592592592592595
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1402,8 +1402,8 @@
         "pop_diff": -0.012500000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9629629629629632
+        "sales": 2.0370370370370368,
+        "sale_diff": -3.9629629629629632
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1421,8 +1421,8 @@
         "pop_diff": -0.002599999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.1518518518518519
+        "sales": 10.185185185185185,
+        "sale_diff": 0.1518518518518519
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1440,8 +1440,8 @@
         "pop_diff": 0.0024999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370363
+        "sales": 2.0370370370370368,
+        "sale_diff": 1.0370370370370363
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1459,8 +1459,8 @@
         "pop_diff": -0.01899999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.462962962962976
+        "sales": 38.7037037037037,
+        "sale_diff": -2.462962962962976
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1478,8 +1478,8 @@
         "pop_diff": 0.010599999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.607407407407408
+        "sales": 40.74074074074074,
+        "sale_diff": 7.607407407407408
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1497,8 +1497,8 @@
         "pop_diff": 0.033600000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 13.337037037037035
+        "sales": 21.37037037037037,
+        "sale_diff": 13.337037037037035
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1516,8 +1516,8 @@
         "pop_diff": -0.006999999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.9259259259259256
+        "sales": 4.0740740740740735,
+        "sale_diff": -1.9259259259259256
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1535,8 +1535,8 @@
         "pop_diff": 0.01930000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.833333333333329
+        "sales": 54.0,
+        "sale_diff": 11.833333333333329
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1554,8 +1554,8 @@
         "pop_diff": 0.008400000000000019,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.5703703703703695
+        "sales": 37.7037037037037,
+        "sale_diff": 6.5703703703703695
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1573,8 +1573,8 @@
         "pop_diff": 0.002600000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 2.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1592,8 +1592,8 @@
         "pop_diff": 0.013199999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.111111111111111
+        "sales": 7.111111111111111,
+        "sale_diff": 5.111111111111111
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1611,8 +1611,8 @@
         "pop_diff": 0.008900000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.18888888888889
+        "sales": 12.222222222222221,
+        "sale_diff": 4.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1630,8 +1630,8 @@
         "pop_diff": 0.008900000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.18888888888889
+        "sales": 12.222222222222221,
+        "sale_diff": 4.18888888888889
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1649,8 +1649,8 @@
         "pop_diff": -0.004900000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9222222222222225
+        "sales": 7.111111111111111,
+        "sale_diff": -0.9222222222222225
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1668,8 +1668,8 @@
         "pop_diff": -0.0062999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.0
+        "sales": 1.0,
+        "sale_diff": -2.0
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1687,8 +1687,8 @@
         "pop_diff": 0.0017000000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0740740740740726
+        "sales": 5.0740740740740735,
+        "sale_diff": 1.0740740740740726
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1706,8 +1706,8 @@
         "pop_diff": 0.0049999999999999975,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740726
+        "sales": 4.0740740740740735,
+        "sale_diff": 2.0740740740740726
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1725,8 +1725,8 @@
         "pop_diff": -0.012500000000000011,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.6185185185185205
+        "sales": 25.48148148148148,
+        "sale_diff": -1.6185185185185205
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1744,8 +1744,8 @@
         "pop_diff": -0.0051,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8851851851851862
+        "sales": 8.148148148148147,
+        "sale_diff": -0.8851851851851862
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1763,8 +1763,8 @@
         "pop_diff": 0.0010000000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.492592592592594
+        "sales": 31.59259259259259,
+        "sale_diff": 3.492592592592594
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -1782,8 +1782,8 @@
         "pop_diff": 0.019600000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.488888888888887
+        "sales": 29.555555555555554,
+        "sale_diff": 9.488888888888887
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1801,8 +1801,8 @@
         "pop_diff": -0.012299999999999978,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.6555555555555586
+        "sales": 24.444444444444443,
+        "sale_diff": -1.6555555555555586
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1820,8 +1820,8 @@
         "pop_diff": -0.004500000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.22962962962962052
+        "sales": 17.296296296296294,
+        "sale_diff": 0.22962962962962052
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1839,8 +1839,8 @@
         "pop_diff": 0.055800000000000016,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 25.018518518518533
+        "sales": 64.18518518518519,
+        "sale_diff": 25.018518518518533
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -1858,8 +1858,8 @@
         "pop_diff": 0.015999999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.492592592592594
+        "sales": 31.59259259259259,
+        "sale_diff": 8.492592592592594
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -1877,8 +1877,8 @@
         "pop_diff": -0.44930000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -108.69259259259269
+        "sales": 410.7407407407407,
+        "sale_diff": -108.69259259259269
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -1896,8 +1896,8 @@
         "pop_diff": -0.7011999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -168.50000000000023
+        "sales": 652.3333333333334,
+        "sale_diff": -168.50000000000023
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1915,8 +1915,8 @@
         "pop_diff": 0.0131,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.299999999999997
+        "sales": 19.333333333333336,
+        "sale_diff": 6.299999999999997
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1934,8 +1934,8 @@
         "pop_diff": -0.001800000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 7.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1953,8 +1953,8 @@
         "pop_diff": 0.006100000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 3.151851851851852
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1972,8 +1972,8 @@
         "pop_diff": -0.0005000000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.03703703703703631
+        "sales": 2.0370370370370368,
+        "sale_diff": 0.03703703703703631
     },
     {
         "itemType": "Melee Riven Mod",
@@ -1991,8 +1991,8 @@
         "pop_diff": 0.008400000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.225925925925928
+        "sales": 14.25925925925926,
+        "sale_diff": 4.225925925925928
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2010,8 +2010,8 @@
         "pop_diff": 0.014399999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.225925925925928
+        "sales": 14.25925925925926,
+        "sale_diff": 6.225925925925928
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2029,8 +2029,8 @@
         "pop_diff": -0.01849999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.5
+        "sales": 36.66666666666667,
+        "sale_diff": -2.5
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2048,8 +2048,8 @@
         "pop_diff": 0.014300000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.414814814814811
+        "sales": 26.481481481481477,
+        "sale_diff": 7.414814814814811
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2067,8 +2067,8 @@
         "pop_diff": 0.011999999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.222222222222221
+        "sales": 12.222222222222221,
+        "sale_diff": 5.222222222222221
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2086,8 +2086,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 1.0,
+        "sale_diff": 0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2105,8 +2105,8 @@
         "pop_diff": 0.0116,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 5.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2124,8 +2124,8 @@
         "pop_diff": -0.003299999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.0000000000000004
+        "sales": 1.0,
+        "sale_diff": -1.0000000000000004
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -2143,8 +2143,8 @@
         "pop_diff": 0.030100000000000016,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.374074074074073
+        "sales": 23.40740740740741,
+        "sale_diff": 12.374074074074073
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -2162,8 +2162,8 @@
         "pop_diff": 0.008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.0740740740740735
+        "sales": 4.0740740740740735,
+        "sale_diff": 3.0740740740740735
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -2181,8 +2181,8 @@
         "pop_diff": -0.0779,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -17.914814814814832
+        "sales": 80.51851851851852,
+        "sale_diff": -17.914814814814832
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -2200,8 +2200,8 @@
         "pop_diff": -0.034700000000000064,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.5777777777777828
+        "sales": 99.88888888888889,
+        "sale_diff": -1.5777777777777828
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2219,8 +2219,8 @@
         "pop_diff": 0.0182,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.185185185185183
+        "sales": 11.185185185185185,
+        "sale_diff": 7.185185185185183
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2238,8 +2238,8 @@
         "pop_diff": -0.003299999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.0000000000000004
+        "sales": 1.0,
+        "sale_diff": -1.0000000000000004
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -2257,8 +2257,8 @@
         "pop_diff": -0.06340000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.500000000000057
+        "sales": 176.33333333333331,
+        "sale_diff": -3.500000000000057
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -2276,8 +2276,8 @@
         "pop_diff": -0.09870000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -19.140740740740796
+        "sales": 137.59259259259258,
+        "sale_diff": -19.140740740740796
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2295,8 +2295,8 @@
         "pop_diff": -0.006099999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8111111111111136
+        "sales": 12.222222222222221,
+        "sale_diff": -0.8111111111111136
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2314,8 +2314,8 @@
         "pop_diff": 0.0020000000000000018,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0740740740740735
+        "sales": 4.0740740740740735,
+        "sale_diff": 1.0740740740740735
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2333,8 +2333,8 @@
         "pop_diff": 0.024399999999999977,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.718518518518522
+        "sales": 45.851851851851855,
+        "sale_diff": 12.718518518518522
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2352,8 +2352,8 @@
         "pop_diff": 0.015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.566666666666663
+        "sales": 35.666666666666664,
+        "sale_diff": 8.566666666666663
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2371,8 +2371,8 @@
         "pop_diff": 0.019599999999999992,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.262962962962959
+        "sales": 17.296296296296294,
+        "sale_diff": 8.262962962962959
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2390,8 +2390,8 @@
         "pop_diff": -0.001800000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 7.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2409,8 +2409,8 @@
         "pop_diff": -0.006099999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8111111111111136
+        "sales": 12.222222222222221,
+        "sale_diff": -0.8111111111111136
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2428,8 +2428,8 @@
         "pop_diff": 0.0022000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 1.0370370370370372
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2447,8 +2447,8 @@
         "pop_diff": 0.0049000000000000155,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.951851851851856
+        "sales": 63.18518518518518,
+        "sale_diff": 7.951851851851856
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2466,8 +2466,8 @@
         "pop_diff": 0.021199999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.874074074074073
+        "sales": 58.07407407407407,
+        "sale_diff": 12.874074074074073
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2485,8 +2485,8 @@
         "pop_diff": 0.0116,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 5.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2504,8 +2504,8 @@
         "pop_diff": -0.0034999999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9629629629629628
+        "sales": 2.0370370370370368,
+        "sale_diff": -0.9629629629629628
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2523,8 +2523,8 @@
         "pop_diff": 0.004200000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2542,8 +2542,8 @@
         "pop_diff": 0.007199999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 3.1111111111111107
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -2561,8 +2561,8 @@
         "pop_diff": 0.013399999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.644444444444446
+        "sales": 41.77777777777777,
+        "sale_diff": 8.644444444444446
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -2580,8 +2580,8 @@
         "pop_diff": 0.012900000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.337037037037035
+        "sales": 20.37037037037037,
+        "sale_diff": 6.337037037037035
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2599,8 +2599,8 @@
         "pop_diff": -0.009500000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.6185185185185205
+        "sales": 25.48148148148148,
+        "sale_diff": -0.6185185185185205
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2618,8 +2618,8 @@
         "pop_diff": 0.007199999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 3.1111111111111107
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2637,8 +2637,8 @@
         "pop_diff": 0.012300000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.340740740740742
+        "sales": 22.407407407407405,
+        "sale_diff": 6.340740740740742
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2656,8 +2656,8 @@
         "pop_diff": 0.004200000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2675,8 +2675,8 @@
         "pop_diff": -0.008599999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.6148148148148067
+        "sales": 44.81481481481481,
+        "sale_diff": 1.6148148148148067
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2694,8 +2694,8 @@
         "pop_diff": 0.022800000000000015,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.451851851851856
+        "sales": 28.51851851851852,
+        "sale_diff": 10.451851851851856
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2713,8 +2713,8 @@
         "pop_diff": -0.001800000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 7.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2732,8 +2732,8 @@
         "pop_diff": 0.006999999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.148148148148147
+        "sales": 8.148148148148147,
+        "sale_diff": 3.148148148148147
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2751,8 +2751,8 @@
         "pop_diff": -0.008199999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.6481481481481381
+        "sales": 43.81481481481482,
+        "sale_diff": 1.6481481481481381
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2770,8 +2770,8 @@
         "pop_diff": -0.03219999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.5740740740740655
+        "sales": 31.59259259259259,
+        "sale_diff": -7.5740740740740655
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2789,8 +2789,8 @@
         "pop_diff": 0.10859999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 46.69629629629628
+        "sales": 104.96296296296296,
+        "sale_diff": 46.69629629629628
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2808,8 +2808,8 @@
         "pop_diff": 0.038199999999999984,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 16.6037037037037
+        "sales": 38.7037037037037,
+        "sale_diff": 16.6037037037037
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -2827,8 +2827,8 @@
         "pop_diff": -0.10809999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -16.259259259259238
+        "sales": 197.74074074074076,
+        "sale_diff": -16.259259259259238
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -2846,8 +2846,8 @@
         "pop_diff": 0.0043999999999999595,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 17.366666666666674
+        "sales": 159.0,
+        "sale_diff": 17.366666666666674
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2865,8 +2865,8 @@
         "pop_diff": -0.029300000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.385185185185193
+        "sales": 43.81481481481482,
+        "sale_diff": -5.385185185185193
     },
     {
         "itemType": "Melee Riven Mod",
@@ -2884,8 +2884,8 @@
         "pop_diff": 0.03520000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 16.829629629629622
+        "sales": 50.96296296296296,
+        "sale_diff": 16.829629629629622
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -2903,8 +2903,8 @@
         "pop_diff": -0.024399999999999977,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.688888888888897
+        "sales": 24.444444444444443,
+        "sale_diff": -5.688888888888897
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -2922,8 +2922,8 @@
         "pop_diff": -0.020700000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.881481481481485
+        "sales": 10.185185185185185,
+        "sale_diff": -5.881481481481485
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2941,8 +2941,8 @@
         "pop_diff": 0.029200000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 15.94814814814815
+        "sales": 62.148148148148145,
+        "sale_diff": 15.94814814814815
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -2960,8 +2960,8 @@
         "pop_diff": 0.03490000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 19.17407407407407
+        "sales": 75.4074074074074,
+        "sale_diff": 19.17407407407407
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2979,8 +2979,8 @@
         "pop_diff": -0.0169,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.5777777777777757
+        "sales": 30.555555555555557,
+        "sale_diff": -2.5777777777777757
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -2998,8 +2998,8 @@
         "pop_diff": -0.0216,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.996296296296297
+        "sales": 2.0370370370370368,
+        "sale_diff": -6.996296296296297
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3017,8 +3017,8 @@
         "pop_diff": -0.030399999999999983,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.68888888888889
+        "sales": 24.444444444444443,
+        "sale_diff": -7.68888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3036,8 +3036,8 @@
         "pop_diff": 0.0004000000000000045,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.151851851851852
+        "sales": 10.185185185185185,
+        "sale_diff": 1.151851851851852
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3055,8 +3055,8 @@
         "pop_diff": -0.002599999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.1518518518518519
+        "sales": 10.185185185185185,
+        "sale_diff": 0.1518518518518519
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3074,8 +3074,8 @@
         "pop_diff": -0.0005000000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.03703703703703631
+        "sales": 2.0370370370370368,
+        "sale_diff": 0.03703703703703631
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3093,8 +3093,8 @@
         "pop_diff": 0.004200000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3112,8 +3112,8 @@
         "pop_diff": 0.0024999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370363
+        "sales": 2.0370370370370368,
+        "sale_diff": 1.0370370370370363
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3131,8 +3131,8 @@
         "pop_diff": -0.007200000000000012,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.7703703703703795
+        "sales": 16.296296296296294,
+        "sale_diff": -0.7703703703703795
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3150,8 +3150,8 @@
         "pop_diff": -0.0007999999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 0.0370370370370372
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3169,8 +3169,8 @@
         "pop_diff": -0.0028999999999999894,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.1518518518518519
+        "sales": 11.185185185185185,
+        "sale_diff": 0.1518518518518519
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3188,8 +3188,8 @@
         "pop_diff": -0.0005000000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.03703703703703631
+        "sales": 2.0370370370370368,
+        "sale_diff": 0.03703703703703631
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3207,8 +3207,8 @@
         "pop_diff": 0.04370000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 20.985185185185188
+        "sales": 64.18518518518519,
+        "sale_diff": 20.985185185185188
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3226,8 +3226,8 @@
         "pop_diff": 0.004299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.6111111111111
+        "sales": 41.77777777777777,
+        "sale_diff": 5.6111111111111
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3245,8 +3245,8 @@
         "pop_diff": 0.005600000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 3.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3264,8 +3264,8 @@
         "pop_diff": -0.012800000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9629629629629624
+        "sales": 3.0370370370370376,
+        "sale_diff": -3.9629629629629624
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3283,8 +3283,8 @@
         "pop_diff": 0.0187,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 7.148148148148147
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3302,8 +3302,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2296296296296276
+        "sales": 17.296296296296294,
+        "sale_diff": 1.2296296296296276
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3321,8 +3321,8 @@
         "pop_diff": 0.0017000000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0740740740740726
+        "sales": 5.0740740740740735,
+        "sale_diff": 1.0740740740740726
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3340,8 +3340,8 @@
         "pop_diff": -0.007899999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.9222222222222243
+        "sales": 7.111111111111111,
+        "sale_diff": -1.9222222222222243
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3359,8 +3359,8 @@
         "pop_diff": -0.006400000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8111111111111136
+        "sales": 13.222222222222223,
+        "sale_diff": -0.8111111111111136
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3378,8 +3378,8 @@
         "pop_diff": 0.0102,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.111111111111111
+        "sales": 7.111111111111111,
+        "sale_diff": 4.111111111111111
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3397,8 +3397,8 @@
         "pop_diff": -0.0196,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.922222222222224
+        "sales": 6.111111111111111,
+        "sale_diff": -5.922222222222224
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3416,8 +3416,8 @@
         "pop_diff": 0.0040000000000000036,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.148148148148147
+        "sales": 8.148148148148147,
+        "sale_diff": 2.148148148148147
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3435,8 +3435,8 @@
         "pop_diff": 0.0024999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370363
+        "sales": 2.0370370370370368,
+        "sale_diff": 1.0370370370370363
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3454,8 +3454,8 @@
         "pop_diff": -0.004900000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9222222222222225
+        "sales": 7.111111111111111,
+        "sale_diff": -0.9222222222222225
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3473,8 +3473,8 @@
         "pop_diff": -0.003299999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.0000000000000004
+        "sales": 1.0,
+        "sale_diff": -1.0000000000000004
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3492,8 +3492,8 @@
         "pop_diff": 0.0102,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.111111111111111
+        "sales": 7.111111111111111,
+        "sale_diff": 4.111111111111111
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3511,8 +3511,8 @@
         "pop_diff": -0.030600000000000016,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.307407407407425
+        "sales": 48.925925925925924,
+        "sale_diff": -5.307407407407425
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3530,8 +3530,8 @@
         "pop_diff": -0.05259999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -9.992592592592615
+        "sales": 75.4074074074074,
+        "sale_diff": -9.992592592592615
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -3549,8 +3549,8 @@
         "pop_diff": -0.06549999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -15.10740740740738
+        "sales": 67.25925925925927,
+        "sale_diff": -15.10740740740738
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -3568,8 +3568,8 @@
         "pop_diff": -0.017600000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.9592592592592553
+        "sales": 68.25925925925925,
+        "sale_diff": 0.9592592592592553
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3587,8 +3587,8 @@
         "pop_diff": 0.006500000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.303703703703697
+        "sales": 21.37037037037037,
+        "sale_diff": 4.303703703703697
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3606,8 +3606,8 @@
         "pop_diff": -0.0038000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9629629629629624
+        "sales": 3.0370370370370376,
+        "sale_diff": -0.9629629629629624
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3625,8 +3625,8 @@
         "pop_diff": -0.004200000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.22962962962962763
+        "sales": 16.296296296296294,
+        "sale_diff": 0.22962962962962763
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3644,8 +3644,8 @@
         "pop_diff": 0.0076999999999999985,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.0740740740740726
+        "sales": 5.0740740740740735,
+        "sale_diff": 3.0740740740740726
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -3663,8 +3663,8 @@
         "pop_diff": -0.001799999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.4555555555555557
+        "sales": 30.555555555555557,
+        "sale_diff": 2.4555555555555557
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -3682,8 +3682,8 @@
         "pop_diff": 0.003500000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.303703703703704
+        "sales": 21.37037037037037,
+        "sale_diff": 3.303703703703704
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -3701,8 +3701,8 @@
         "pop_diff": -0.0068000000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.38148148148147953
+        "sales": 26.481481481481477,
+        "sale_diff": 0.38148148148147953
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -3720,8 +3720,8 @@
         "pop_diff": -0.004299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9259259259259256
+        "sales": 5.0740740740740735,
+        "sale_diff": -0.9259259259259256
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3739,8 +3739,8 @@
         "pop_diff": 0.02990000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.411111111111111
+        "sales": 24.444444444444443,
+        "sale_diff": 12.411111111111111
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3758,8 +3758,8 @@
         "pop_diff": 0.012200000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.185185185185187
+        "sales": 11.185185185185185,
+        "sale_diff": 5.185185185185187
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3777,8 +3777,8 @@
         "pop_diff": -0.008899999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.8481481481481516
+        "sales": 11.185185185185185,
+        "sale_diff": -1.8481481481481516
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3796,8 +3796,8 @@
         "pop_diff": 0.004700000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740744
+        "sales": 5.0740740740740735,
+        "sale_diff": 2.0740740740740744
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3815,8 +3815,8 @@
         "pop_diff": 0.0032999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.685185185185176
+        "sales": 45.851851851851855,
+        "sale_diff": 5.685185185185176
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3834,8 +3834,8 @@
         "pop_diff": 0.02460000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.337037037037035
+        "sales": 21.37037037037037,
+        "sale_diff": 10.337037037037035
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3853,8 +3853,8 @@
         "pop_diff": 0.0030000000000000027,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.340740740740742
+        "sales": 23.40740740740741,
+        "sale_diff": 3.340740740740742
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3872,8 +3872,8 @@
         "pop_diff": -0.004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9259259259259256
+        "sales": 4.0740740740740735,
+        "sale_diff": -0.9259259259259256
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3891,8 +3891,8 @@
         "pop_diff": -0.008199999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.6481481481481381
+        "sales": 43.81481481481482,
+        "sale_diff": 1.6481481481481381
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3910,8 +3910,8 @@
         "pop_diff": -0.027900000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.651851851851848
+        "sales": 26.481481481481477,
+        "sale_diff": -6.651851851851848
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3929,8 +3929,8 @@
         "pop_diff": -0.029699999999999976,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.537037037037038
+        "sales": 33.62962962962963,
+        "sale_diff": -6.537037037037038
     },
     {
         "itemType": "Melee Riven Mod",
@@ -3948,8 +3948,8 @@
         "pop_diff": 0.014100000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.451851851851856
+        "sales": 27.518518518518523,
+        "sale_diff": 7.451851851851856
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3967,8 +3967,8 @@
         "pop_diff": 0.0030000000000000027,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.340740740740742
+        "sales": 23.40740740740741,
+        "sale_diff": 3.340740740740742
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -3986,8 +3986,8 @@
         "pop_diff": -0.001800000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 7.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4005,8 +4005,8 @@
         "pop_diff": -0.004900000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9222222222222225
+        "sales": 7.111111111111111,
+        "sale_diff": -0.9222222222222225
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4024,8 +4024,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 2.0370370370370368,
+        "sale_diff": 0
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -4043,8 +4043,8 @@
         "pop_diff": -0.13729999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -36.900000000000006
+        "sales": 88.66666666666666,
+        "sale_diff": -36.900000000000006
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -4062,8 +4062,8 @@
         "pop_diff": -0.07540000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -20.448148148148157
+        "sales": 46.851851851851855,
+        "sale_diff": -20.448148148148157
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4081,8 +4081,8 @@
         "pop_diff": 0.010100000000000026,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.644444444444446
+        "sales": 42.777777777777786,
+        "sale_diff": 7.644444444444446
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4100,8 +4100,8 @@
         "pop_diff": -0.006699999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8074074074074105
+        "sales": 14.25925925925926,
+        "sale_diff": -0.8074074074074105
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4119,8 +4119,8 @@
         "pop_diff": 0.0032999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.340740740740742
+        "sales": 22.407407407407405,
+        "sale_diff": 3.340740740740742
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4138,8 +4138,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 6.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4157,8 +4157,8 @@
         "pop_diff": 0.0032999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.685185185185176
+        "sales": 45.851851851851855,
+        "sale_diff": 5.685185185185176
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4176,8 +4176,8 @@
         "pop_diff": 0.01679999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.79629629629629
+        "sales": 51.96296296296296,
+        "sale_diff": 10.79629629629629
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4195,8 +4195,8 @@
         "pop_diff": -0.021699999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.1185185185185276
+        "sales": 61.148148148148145,
+        "sale_diff": -1.1185185185185276
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4214,8 +4214,8 @@
         "pop_diff": -0.0165,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.425925925925938
+        "sales": 40.74074074074074,
+        "sale_diff": -1.425925925925938
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4233,8 +4233,8 @@
         "pop_diff": 0.0655,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 36.203703703703695
+        "sales": 143.7037037037037,
+        "sale_diff": 36.203703703703695
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4252,8 +4252,8 @@
         "pop_diff": -0.10299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.6555555555555657
+        "sales": 306.77777777777777,
+        "sale_diff": -3.6555555555555657
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4271,8 +4271,8 @@
         "pop_diff": -0.08979999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -21.985185185185202
+        "sales": 79.48148148148148,
+        "sale_diff": -21.985185185185202
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4290,8 +4290,8 @@
         "pop_diff": -0.03939999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.000000000000028
+        "sales": 71.33333333333333,
+        "sale_diff": -6.000000000000028
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4309,8 +4309,8 @@
         "pop_diff": -0.07149999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -17.107407407407408
+        "sales": 67.25925925925927,
+        "sale_diff": -17.107407407407408
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4328,8 +4328,8 @@
         "pop_diff": -0.03369999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.6888888888888687
+        "sales": 119.22222222222223,
+        "sale_diff": 0.6888888888888687
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4347,8 +4347,8 @@
         "pop_diff": -0.020099999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.88518518518519
+        "sales": 8.148148148148147,
+        "sale_diff": -5.88518518518519
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4366,8 +4366,8 @@
         "pop_diff": 0.0024999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370363
+        "sales": 2.0370370370370368,
+        "sale_diff": 1.0370370370370363
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4385,8 +4385,8 @@
         "pop_diff": 0.012200000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.185185185185187
+        "sales": 11.185185185185185,
+        "sale_diff": 5.185185185185187
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4404,8 +4404,8 @@
         "pop_diff": 0.013600000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.262962962962959
+        "sales": 17.296296296296294,
+        "sale_diff": 6.262962962962959
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4423,8 +4423,8 @@
         "pop_diff": 0.004200000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4442,8 +4442,8 @@
         "pop_diff": -0.0034000000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.18888888888888644
+        "sales": 13.222222222222223,
+        "sale_diff": 0.18888888888888644
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4461,8 +4461,8 @@
         "pop_diff": 0.00860000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 4.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4480,8 +4480,8 @@
         "pop_diff": 0.034999999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 13.296296296296294
+        "sales": 16.296296296296294,
+        "sale_diff": 13.296296296296294
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4499,8 +4499,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 1.0,
+        "sale_diff": 0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4518,8 +4518,8 @@
         "pop_diff": 0.006100000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 3.151851851851852
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -4537,8 +4537,8 @@
         "pop_diff": 0.009199999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.87407407407406
+        "sales": 58.07407407407407,
+        "sale_diff": 8.87407407407406
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -4556,8 +4556,8 @@
         "pop_diff": -0.018000000000000016,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.537037037037038
+        "sales": 34.62962962962963,
+        "sale_diff": -2.537037037037038
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4575,8 +4575,8 @@
         "pop_diff": -0.012199999999999989,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.8444444444444485
+        "sales": 12.222222222222221,
+        "sale_diff": -2.8444444444444485
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4594,8 +4594,8 @@
         "pop_diff": 0.004700000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740744
+        "sales": 5.0740740740740735,
+        "sale_diff": 2.0740740740740744
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4613,8 +4613,8 @@
         "pop_diff": -0.010899999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.5777777777777828
+        "sales": 30.555555555555557,
+        "sale_diff": -0.5777777777777828
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4632,8 +4632,8 @@
         "pop_diff": -0.004500000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.22962962962962052
+        "sales": 17.296296296296294,
+        "sale_diff": 0.22962962962962052
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -4651,8 +4651,8 @@
         "pop_diff": 0.0025000000000000022,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.3814814814814795
+        "sales": 25.48148148148148,
+        "sale_diff": 3.3814814814814795
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -4670,8 +4670,8 @@
         "pop_diff": -9.999999999998899e-05,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.18888888888889
+        "sales": 12.222222222222221,
+        "sale_diff": 1.18888888888889
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4689,8 +4689,8 @@
         "pop_diff": 0.026100000000000012,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.451851851851856
+        "sales": 27.518518518518523,
+        "sale_diff": 11.451851851851856
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4708,8 +4708,8 @@
         "pop_diff": 0.0076999999999999985,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.0740740740740726
+        "sales": 5.0740740740740735,
+        "sale_diff": 3.0740740740740726
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4727,8 +4727,8 @@
         "pop_diff": -0.0076999999999999985,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.7333333333333343
+        "sales": 18.333333333333336,
+        "sale_diff": -0.7333333333333343
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4746,8 +4746,8 @@
         "pop_diff": 0.0076999999999999985,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.0740740740740726
+        "sales": 5.0740740740740735,
+        "sale_diff": 3.0740740740740726
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -4765,8 +4765,8 @@
         "pop_diff": -0.009099999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.6925925925925966
+        "sales": 23.40740740740741,
+        "sale_diff": -0.6925925925925966
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -4784,8 +4784,8 @@
         "pop_diff": 0.014100000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.225925925925928
+        "sales": 15.25925925925926,
+        "sale_diff": 6.225925925925928
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4803,8 +4803,8 @@
         "pop_diff": 0.022700000000000053,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 21.018518518518533
+        "sales": 134.51851851851853,
+        "sale_diff": 21.018518518518533
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4822,8 +4822,8 @@
         "pop_diff": -0.05380000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.529629629629596
+        "sales": 244.62962962962965,
+        "sale_diff": 6.529629629629596
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4841,8 +4841,8 @@
         "pop_diff": 0.006000000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.340740740740742
+        "sales": 23.40740740740741,
+        "sale_diff": 4.340740740740742
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4860,8 +4860,8 @@
         "pop_diff": -0.010599999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.9222222222222225
+        "sales": 6.111111111111111,
+        "sale_diff": -2.9222222222222225
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4879,8 +4879,8 @@
         "pop_diff": -0.0006000000000000033,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2259259259259245
+        "sales": 14.25925925925926,
+        "sale_diff": 1.2259259259259245
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4898,8 +4898,8 @@
         "pop_diff": 0.0102,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.111111111111111
+        "sales": 7.111111111111111,
+        "sale_diff": 4.111111111111111
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4917,8 +4917,8 @@
         "pop_diff": 0.02149999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.529629629629632
+        "sales": 33.62962962962963,
+        "sale_diff": 10.529629629629632
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -4936,8 +4936,8 @@
         "pop_diff": 0.0045000000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 6.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4955,8 +4955,8 @@
         "pop_diff": -0.015200000000000047,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.8444444444444201
+        "sales": 59.11111111111111,
+        "sale_diff": 0.8444444444444201
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4974,8 +4974,8 @@
         "pop_diff": 0.038199999999999984,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 16.6037037037037
+        "sales": 38.7037037037037,
+        "sale_diff": 16.6037037037037
     },
     {
         "itemType": "Melee Riven Mod",
@@ -4993,8 +4993,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 6.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5012,8 +5012,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 1.0,
+        "sale_diff": 0
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5031,8 +5031,8 @@
         "pop_diff": 0.032899999999999985,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 15.75555555555556
+        "sales": 47.888888888888886,
+        "sale_diff": 15.75555555555556
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5050,8 +5050,8 @@
         "pop_diff": 0.0030000000000000027,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.340740740740742
+        "sales": 23.40740740740741,
+        "sale_diff": 3.340740740740742
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5069,8 +5069,8 @@
         "pop_diff": 0.00860000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 4.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5088,8 +5088,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 1.0,
+        "sale_diff": 0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5107,8 +5107,8 @@
         "pop_diff": 0.0045000000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 6.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5126,8 +5126,8 @@
         "pop_diff": -9.999999999998899e-05,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.18888888888889
+        "sales": 12.222222222222221,
+        "sale_diff": 1.18888888888889
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5145,8 +5145,8 @@
         "pop_diff": 0.03520000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 14.485185185185188
+        "sales": 27.518518518518523,
+        "sale_diff": 14.485185185185188
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5164,8 +5164,8 @@
         "pop_diff": -0.005400000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8851851851851862
+        "sales": 9.148148148148147,
+        "sale_diff": -0.8851851851851862
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5183,8 +5183,8 @@
         "pop_diff": 0.011800000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.37777777777778
+        "sales": 24.444444444444443,
+        "sale_diff": 6.37777777777778
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5202,8 +5202,8 @@
         "pop_diff": 0.015199999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.185185185185187
+        "sales": 11.185185185185185,
+        "sale_diff": 6.185185185185187
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -5221,8 +5221,8 @@
         "pop_diff": -0.07579999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -12.222222222222229
+        "sales": 130.44444444444446,
+        "sale_diff": -12.222222222222229
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -5240,8 +5240,8 @@
         "pop_diff": -0.2612,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -59.34444444444455
+        "sales": 277.22222222222223,
+        "sale_diff": -59.34444444444455
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5259,8 +5259,8 @@
         "pop_diff": 0.03270000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 13.44814814814815
+        "sales": 25.48148148148148,
+        "sale_diff": 13.44814814814815
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5278,8 +5278,8 @@
         "pop_diff": 0.018500000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.185185185185185
+        "sales": 10.185185185185185,
+        "sale_diff": 7.185185185185185
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5297,8 +5297,8 @@
         "pop_diff": -0.0051,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8851851851851862
+        "sales": 8.148148148148147,
+        "sale_diff": -0.8851851851851862
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5316,8 +5316,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 3.0370370370370376,
+        "sale_diff": 0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5335,8 +5335,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 6.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5354,8 +5354,8 @@
         "pop_diff": -0.0005000000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.03703703703703631
+        "sales": 2.0370370370370368,
+        "sale_diff": 0.03703703703703631
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5373,8 +5373,8 @@
         "pop_diff": 0.00010000000000000286,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 1.151851851851852
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5392,8 +5392,8 @@
         "pop_diff": -0.0007999999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 0.0370370370370372
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5411,8 +5411,8 @@
         "pop_diff": 0.017300000000000038,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.759259259259267
+        "sales": 49.92592592592593,
+        "sale_diff": 10.759259259259267
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5430,8 +5430,8 @@
         "pop_diff": 0.014300000000000035,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.759259259259252
+        "sales": 49.92592592592593,
+        "sale_diff": 9.759259259259252
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -5449,8 +5449,8 @@
         "pop_diff": -0.003799999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.3814814814814724
+        "sales": 26.481481481481477,
+        "sale_diff": 1.3814814814814724
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -5468,8 +5468,8 @@
         "pop_diff": 0.0187,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 7.148148148148147
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5487,8 +5487,8 @@
         "pop_diff": 0.012500000000000011,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.303703703703704
+        "sales": 21.37037037037037,
+        "sale_diff": 6.303703703703704
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5506,8 +5506,8 @@
         "pop_diff": 0.007199999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 3.1111111111111107
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5525,8 +5525,8 @@
         "pop_diff": 0.014100000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.225925925925928
+        "sales": 15.25925925925926,
+        "sale_diff": 6.225925925925928
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5544,8 +5544,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 4.0740740740740735,
+        "sale_diff": 0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5563,8 +5563,8 @@
         "pop_diff": -0.05979999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -17.7962962962963
+        "sales": 21.37037037037037,
+        "sale_diff": -17.7962962962963
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5582,8 +5582,8 @@
         "pop_diff": -0.011299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.7296296296296347
+        "sales": 20.37037037037037,
+        "sale_diff": -1.7296296296296347
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5601,8 +5601,8 @@
         "pop_diff": -0.04369999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.23333333333332
+        "sales": 123.33333333333334,
+        "sale_diff": -2.23333333333332
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5620,8 +5620,8 @@
         "pop_diff": -0.1187999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.7629629629630017
+        "sales": 403.6296296296296,
+        "sale_diff": 0.7629629629630017
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5639,8 +5639,8 @@
         "pop_diff": 0.0022000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 1.0370370370370372
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5658,8 +5658,8 @@
         "pop_diff": -0.012500000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9629629629629632
+        "sales": 2.0370370370370368,
+        "sale_diff": -3.9629629629629632
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5677,8 +5677,8 @@
         "pop_diff": -0.033899999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.307407407407396
+        "sales": 49.92592592592593,
+        "sale_diff": -6.307407407407396
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5696,8 +5696,8 @@
         "pop_diff": -0.022000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.462962962962976
+        "sales": 38.7037037037037,
+        "sale_diff": -3.462962962962976
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5715,8 +5715,8 @@
         "pop_diff": -0.0032999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.3444444444444414
+        "sales": 24.444444444444443,
+        "sale_diff": 1.3444444444444414
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5734,8 +5734,8 @@
         "pop_diff": 0.0267,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.44814814814815
+        "sales": 25.48148148148148,
+        "sale_diff": 11.44814814814815
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5753,8 +5753,8 @@
         "pop_diff": 0.011800000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.37777777777778
+        "sales": 24.444444444444443,
+        "sale_diff": 6.37777777777778
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5772,8 +5772,8 @@
         "pop_diff": 0.017700000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.222222222222225
+        "sales": 13.222222222222223,
+        "sale_diff": 7.222222222222225
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5791,8 +5791,8 @@
         "pop_diff": 0.0042999999999999705,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.299999999999983
+        "sales": 88.66666666666666,
+        "sale_diff": 10.299999999999983
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -5810,8 +5810,8 @@
         "pop_diff": 0.08479999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 41.007407407407385
+        "sales": 127.40740740740739,
+        "sale_diff": 41.007407407407385
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5829,8 +5829,8 @@
         "pop_diff": 0.023999999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.566666666666663
+        "sales": 35.666666666666664,
+        "sale_diff": 11.566666666666663
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5848,8 +5848,8 @@
         "pop_diff": 0.03459999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 14.488888888888887
+        "sales": 29.555555555555554,
+        "sale_diff": 14.488888888888887
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5867,8 +5867,8 @@
         "pop_diff": 0.0010000000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.2666666666666657
+        "sales": 19.333333333333336,
+        "sale_diff": 2.2666666666666657
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5886,8 +5886,8 @@
         "pop_diff": -0.002599999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.1518518518518519
+        "sales": 10.185185185185185,
+        "sale_diff": 0.1518518518518519
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5905,8 +5905,8 @@
         "pop_diff": 0.0092,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.185185185185183
+        "sales": 11.185185185185185,
+        "sale_diff": 4.185185185185183
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5924,8 +5924,8 @@
         "pop_diff": 0.0022000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 1.0370370370370372
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5943,8 +5943,8 @@
         "pop_diff": 0.011999999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.222222222222221
+        "sales": 12.222222222222221,
+        "sale_diff": 5.222222222222221
     },
     {
         "itemType": "Melee Riven Mod",
@@ -5962,8 +5962,8 @@
         "pop_diff": 0.0020000000000000018,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0740740740740735
+        "sales": 4.0740740740740735,
+        "sale_diff": 1.0740740740740735
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -5981,8 +5981,8 @@
         "pop_diff": 0.0030999999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 2.151851851851852
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6000,8 +6000,8 @@
         "pop_diff": -0.004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9259259259259256
+        "sales": 4.0740740740740735,
+        "sale_diff": -0.9259259259259256
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6019,8 +6019,8 @@
         "pop_diff": 0.008099999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.225925925925928
+        "sales": 15.25925925925926,
+        "sale_diff": 4.225925925925928
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6038,8 +6038,8 @@
         "pop_diff": 0.010500000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.111111111111111
+        "sales": 6.111111111111111,
+        "sale_diff": 4.111111111111111
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -6057,8 +6057,8 @@
         "pop_diff": -0.040200000000000014,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.959259259259255
+        "sales": 74.4074074074074,
+        "sale_diff": -5.959259259259255
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -6076,8 +6076,8 @@
         "pop_diff": -0.0528,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -14.64444444444445
+        "sales": 29.555555555555554,
+        "sale_diff": -14.64444444444445
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6095,8 +6095,8 @@
         "pop_diff": -0.011299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.7296296296296347
+        "sales": 20.37037037037037,
+        "sale_diff": -1.7296296296296347
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6114,8 +6114,8 @@
         "pop_diff": 0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.2296296296296276
+        "sales": 17.296296296296294,
+        "sale_diff": 2.2296296296296276
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6133,8 +6133,8 @@
         "pop_diff": -0.0011999999999999789,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.262962962962973
+        "sales": 86.62962962962963,
+        "sale_diff": 8.262962962962973
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6152,8 +6152,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.574074074074062
+        "sales": 40.74074074074074,
+        "sale_diff": 3.574074074074062
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6171,8 +6171,8 @@
         "pop_diff": 0.0116,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.533333333333331
+        "sales": 36.66666666666667,
+        "sale_diff": 7.533333333333331
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6190,8 +6190,8 @@
         "pop_diff": -0.005400000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8851851851851862
+        "sales": 9.148148148148147,
+        "sale_diff": -0.8851851851851862
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6209,8 +6209,8 @@
         "pop_diff": 0.008000000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.418518518518518
+        "sales": 27.518518518518523,
+        "sale_diff": 5.418518518518518
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6228,8 +6228,8 @@
         "pop_diff": 0.003699999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1481481481481453
+        "sales": 9.148148148148147,
+        "sale_diff": 2.1481481481481453
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6247,8 +6247,8 @@
         "pop_diff": -0.019599999999999992,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.4592592592592695
+        "sales": 40.74074074074074,
+        "sale_diff": -2.4592592592592695
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6266,8 +6266,8 @@
         "pop_diff": 0.006699999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 3.148148148148147
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6285,8 +6285,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.799999999999983
+        "sales": 53.0,
+        "sale_diff": 4.799999999999983
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6304,8 +6304,8 @@
         "pop_diff": -0.030399999999999983,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.68888888888889
+        "sales": 24.444444444444443,
+        "sale_diff": -7.68888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6323,8 +6323,8 @@
         "pop_diff": -0.04189999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -11.725925925925935
+        "sales": 22.407407407407405,
+        "sale_diff": -11.725925925925935
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6342,8 +6342,8 @@
         "pop_diff": -0.008899999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.8481481481481516
+        "sales": 11.185185185185185,
+        "sale_diff": -1.8481481481481516
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6361,8 +6361,8 @@
         "pop_diff": 0.014700000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.222222222222221
+        "sales": 13.222222222222223,
+        "sale_diff": 6.222222222222221
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6380,8 +6380,8 @@
         "pop_diff": -0.0062999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.0
+        "sales": 1.0,
+        "sale_diff": -2.0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6399,8 +6399,8 @@
         "pop_diff": 0.01529999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.685185185185176
+        "sales": 45.851851851851855,
+        "sale_diff": 9.685185185185176
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6418,8 +6418,8 @@
         "pop_diff": -0.04429999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -11.607407407407411
+        "sales": 31.59259259259259,
+        "sale_diff": -11.607407407407411
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6437,8 +6437,8 @@
         "pop_diff": 0.012900000000000023,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.025925925925947
+        "sales": 67.25925925925927,
+        "sale_diff": 11.025925925925947
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6456,8 +6456,8 @@
         "pop_diff": 0.018199999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.529629629629625
+        "sales": 34.62962962962963,
+        "sale_diff": 9.529629629629625
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6475,8 +6475,8 @@
         "pop_diff": 0.020100000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.451851851851856
+        "sales": 27.518518518518523,
+        "sale_diff": 9.451851851851856
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6494,8 +6494,8 @@
         "pop_diff": -0.004500000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8888888888888893
+        "sales": 6.111111111111111,
+        "sale_diff": -0.8888888888888893
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6513,8 +6513,8 @@
         "pop_diff": 0.00010000000000000286,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 1.151851851851852
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6532,8 +6532,8 @@
         "pop_diff": -0.0007999999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 0.0370370370370372
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6551,8 +6551,8 @@
         "pop_diff": -0.012999999999999984,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.4629629629629619
+        "sales": 38.7037037037037,
+        "sale_diff": -0.4629629629629619
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6570,8 +6570,8 @@
         "pop_diff": 0.010899999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.262962962962959
+        "sales": 16.296296296296294,
+        "sale_diff": 5.262962962962959
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6589,8 +6589,8 @@
         "pop_diff": 0.00470000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.4185185185185105
+        "sales": 28.51851851851852,
+        "sale_diff": 4.4185185185185105
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6608,8 +6608,8 @@
         "pop_diff": -0.000899999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2259259259259245
+        "sales": 15.25925925925926,
+        "sale_diff": 1.2259259259259245
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6627,8 +6627,8 @@
         "pop_diff": 0.007700000000000012,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.418518518518518
+        "sales": 28.51851851851852,
+        "sale_diff": 5.418518518518518
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6646,8 +6646,8 @@
         "pop_diff": -0.01160000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.8481481481481516
+        "sales": 10.185185185185185,
+        "sale_diff": -2.8481481481481516
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6665,8 +6665,8 @@
         "pop_diff": -0.004299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9259259259259256
+        "sales": 5.0740740740740735,
+        "sale_diff": -0.9259259259259256
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6684,8 +6684,8 @@
         "pop_diff": -0.0002999999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.0
+        "sales": 1.0,
+        "sale_diff": 0.0
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -6703,8 +6703,8 @@
         "pop_diff": 0.0020000000000000018,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.4185185185185176
+        "sales": 27.518518518518523,
+        "sale_diff": 3.4185185185185176
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -6722,8 +6722,8 @@
         "pop_diff": 0.015,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.222222222222221
+        "sales": 12.222222222222221,
+        "sale_diff": 6.222222222222221
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6741,8 +6741,8 @@
         "pop_diff": -0.11229999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -23.062962962962956
+        "sales": 143.7037037037037,
+        "sale_diff": -23.062962962962956
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6760,8 +6760,8 @@
         "pop_diff": -0.4567000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -109.4259259259261
+        "sales": 428.074074074074,
+        "sale_diff": -109.4259259259261
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6779,8 +6779,8 @@
         "pop_diff": 0.021199999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 10.529629629629625
+        "sales": 34.62962962962963,
+        "sale_diff": 10.529629629629625
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6798,8 +6798,8 @@
         "pop_diff": 0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.2296296296296276
+        "sales": 17.296296296296294,
+        "sale_diff": 2.2296296296296276
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6817,8 +6817,8 @@
         "pop_diff": -0.006400000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8111111111111136
+        "sales": 13.222222222222223,
+        "sale_diff": -0.8111111111111136
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6836,8 +6836,8 @@
         "pop_diff": -0.04310000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -10.496296296296308
+        "sales": 38.7037037037037,
+        "sale_diff": -10.496296296296308
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -6855,8 +6855,8 @@
         "pop_diff": -0.013399999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.614814814814821
+        "sales": 28.51851851851852,
+        "sale_diff": -1.614814814814821
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6874,8 +6874,8 @@
         "pop_diff": -0.011099999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.885185185185186
+        "sales": 8.148148148148147,
+        "sale_diff": -2.885185185185186
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6893,8 +6893,8 @@
         "pop_diff": -0.003299999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.0000000000000004
+        "sales": 1.0,
+        "sale_diff": -1.0000000000000004
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6912,8 +6912,8 @@
         "pop_diff": -0.022299999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.4592592592592695
+        "sales": 39.74074074074074,
+        "sale_diff": -3.4592592592592695
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6931,8 +6931,8 @@
         "pop_diff": 0.00860000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 4.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6950,8 +6950,8 @@
         "pop_diff": -0.040000000000000036,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.996296296296322
+        "sales": 73.37037037037037,
+        "sale_diff": -5.996296296296322
     },
     {
         "itemType": "Melee Riven Mod",
@@ -6969,8 +6969,8 @@
         "pop_diff": -0.08850000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -17.37407407407403
+        "sales": 121.25925925925927,
+        "sale_diff": -17.37407407407403
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -6988,8 +6988,8 @@
         "pop_diff": -0.012700000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.8074074074074105
+        "sales": 14.25925925925926,
+        "sale_diff": -2.8074074074074105
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7007,8 +7007,8 @@
         "pop_diff": -0.009800000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.9629629629629624
+        "sales": 3.0370370370370376,
+        "sale_diff": -2.9629629629629624
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7026,8 +7026,8 @@
         "pop_diff": 0.03459999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 14.488888888888887
+        "sales": 29.555555555555554,
+        "sale_diff": 14.488888888888887
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7045,8 +7045,8 @@
         "pop_diff": 0.008400000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.225925925925928
+        "sales": 14.25925925925926,
+        "sale_diff": 4.225925925925928
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7064,8 +7064,8 @@
         "pop_diff": 0.2491,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 102.19259259259258
+        "sales": 191.59259259259258,
+        "sale_diff": 102.19259259259258
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7083,8 +7083,8 @@
         "pop_diff": 0.19229999999999992,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 77.24814814814812
+        "sales": 131.48148148148147,
+        "sale_diff": 77.24814814814812
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -7102,8 +7102,8 @@
         "pop_diff": -0.017699999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.537037037037038
+        "sales": 33.62962962962963,
+        "sale_diff": -2.537037037037038
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -7121,8 +7121,8 @@
         "pop_diff": 0.004499999999999976,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.455555555555549
+        "sales": 29.555555555555554,
+        "sale_diff": 4.455555555555549
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -7140,8 +7140,8 @@
         "pop_diff": -0.0232,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.2296296296296276
+        "sales": 55.037037037037045,
+        "sale_diff": -2.2296296296296276
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -7159,8 +7159,8 @@
         "pop_diff": -0.014299999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.3851851851851933
+        "sales": 43.81481481481482,
+        "sale_diff": -0.3851851851851933
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7178,8 +7178,8 @@
         "pop_diff": 0.08990000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 55.95555555555552
+        "sales": 259.88888888888886,
+        "sale_diff": 55.95555555555552
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7197,8 +7197,8 @@
         "pop_diff": 0.13680000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 67.41111111111104
+        "sales": 218.1111111111111,
+        "sale_diff": 67.41111111111104
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7216,8 +7216,8 @@
         "pop_diff": -0.23770000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -54.77037037037033
+        "sales": 244.62962962962965,
+        "sale_diff": -54.77037037037033
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7235,8 +7235,8 @@
         "pop_diff": -0.19369999999999987,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -31.440740740740807
+        "sales": 331.2592592592593,
+        "sale_diff": -31.440740740740807
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7254,8 +7254,8 @@
         "pop_diff": 0.0010000000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.1481481481481453
+        "sales": 8.148148148148147,
+        "sale_diff": 1.1481481481481453
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7273,8 +7273,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 1.0,
+        "sale_diff": 0
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7292,8 +7292,8 @@
         "pop_diff": 0.025300000000000045,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 13.833333333333329
+        "sales": 54.0,
+        "sale_diff": 13.833333333333329
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7311,8 +7311,8 @@
         "pop_diff": 0.0169,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.262962962962959
+        "sales": 16.296296296296294,
+        "sale_diff": 7.262962962962959
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7330,8 +7330,8 @@
         "pop_diff": -0.0242,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.500000000000014
+        "sales": 35.666666666666664,
+        "sale_diff": -4.500000000000014
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7349,8 +7349,8 @@
         "pop_diff": -0.000899999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2259259259259245
+        "sales": 15.25925925925926,
+        "sale_diff": 1.2259259259259245
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7368,8 +7368,8 @@
         "pop_diff": 0.009999999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.148148148148145
+        "sales": 8.148148148148147,
+        "sale_diff": 4.148148148148145
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7387,8 +7387,8 @@
         "pop_diff": -0.0062999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.0
+        "sales": 1.0,
+        "sale_diff": -2.0
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7406,8 +7406,8 @@
         "pop_diff": -0.007899999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.9222222222222243
+        "sales": 7.111111111111111,
+        "sale_diff": -1.9222222222222243
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7425,8 +7425,8 @@
         "pop_diff": -0.0062999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.0
+        "sales": 1.0,
+        "sale_diff": -2.0
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7444,8 +7444,8 @@
         "pop_diff": -0.09489999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -20.525925925925918
+        "sales": 111.07407407407408,
+        "sale_diff": -20.525925925925918
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7463,8 +7463,8 @@
         "pop_diff": -0.1483000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -26.907407407407447
+        "sales": 225.25925925925924,
+        "sale_diff": -26.907407407407447
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7482,8 +7482,8 @@
         "pop_diff": -0.1788,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -56.848148148148155
+        "sales": 27.518518518518523,
+        "sale_diff": -56.848148148148155
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7501,8 +7501,8 @@
         "pop_diff": -0.12810000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -40.97037037037039
+        "sales": 17.296296296296294,
+        "sale_diff": -40.97037037037039
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7520,8 +7520,8 @@
         "pop_diff": -0.03360000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -8.651851851851859
+        "sales": 25.48148148148148,
+        "sale_diff": -8.651851851851859
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7539,8 +7539,8 @@
         "pop_diff": -0.013900000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9222222222222243
+        "sales": 7.111111111111111,
+        "sale_diff": -3.9222222222222243
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7558,8 +7558,8 @@
         "pop_diff": -0.005900000000000016,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.4962962962962933
+        "sales": 34.62962962962963,
+        "sale_diff": 1.4962962962962933
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7577,8 +7577,8 @@
         "pop_diff": -0.024600000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.996296296296297
+        "sales": 2.0370370370370368,
+        "sale_diff": -7.996296296296297
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -7596,8 +7596,8 @@
         "pop_diff": -0.19120000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -42.12592592592591
+        "sales": 216.07407407407408,
+        "sale_diff": -42.12592592592591
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -7615,8 +7615,8 @@
         "pop_diff": -0.14139999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -33.170370370370335
+        "sales": 139.62962962962965,
+        "sale_diff": -33.170370370370335
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7634,8 +7634,8 @@
         "pop_diff": -0.005199999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.3037037037037038
+        "sales": 20.37037037037037,
+        "sale_diff": 0.3037037037037038
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7653,8 +7653,8 @@
         "pop_diff": 0.0011999999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.1111111111111107
+        "sales": 7.111111111111111,
+        "sale_diff": 1.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7672,8 +7672,8 @@
         "pop_diff": -0.0242,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.877777777777766
+        "sales": 129.44444444444443,
+        "sale_diff": 4.877777777777766
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7691,8 +7691,8 @@
         "pop_diff": -0.13600000000000012,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -13.533333333333303
+        "sales": 318.0,
+        "sale_diff": -13.533333333333303
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7710,8 +7710,8 @@
         "pop_diff": -9.999999999998899e-05,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.18888888888889
+        "sales": 12.222222222222221,
+        "sale_diff": 1.18888888888889
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7729,8 +7729,8 @@
         "pop_diff": -0.003299999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.0000000000000004
+        "sales": 1.0,
+        "sale_diff": -1.0000000000000004
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7748,8 +7748,8 @@
         "pop_diff": 0.029100000000000015,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 26.514814814814827
+        "sales": 168.14814814814815,
+        "sale_diff": 26.514814814814827
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7767,8 +7767,8 @@
         "pop_diff": -0.033500000000000085,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 55.80000000000018
+        "sales": 669.6666666666667,
+        "sale_diff": 55.80000000000018
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7786,8 +7786,8 @@
         "pop_diff": 0.0547,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 22.714814814814815
+        "sales": 44.81481481481481,
+        "sale_diff": 22.714814814814815
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7805,8 +7805,8 @@
         "pop_diff": -0.0097,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.807407407407407
+        "sales": 14.25925925925926,
+        "sale_diff": -1.807407407407407
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7824,8 +7824,8 @@
         "pop_diff": -0.018199999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.8444444444444485
+        "sales": 12.222222222222221,
+        "sale_diff": -4.8444444444444485
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7843,8 +7843,8 @@
         "pop_diff": 0.0075,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.1111111111111107
+        "sales": 6.111111111111111,
+        "sale_diff": 3.1111111111111107
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7862,8 +7862,8 @@
         "pop_diff": -0.008200000000000096,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.681481481481455
+        "sales": 114.14814814814814,
+        "sale_diff": 8.681481481481455
     },
     {
         "itemType": "Melee Riven Mod",
@@ -7881,8 +7881,8 @@
         "pop_diff": -0.09210000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -12.45555555555552
+        "sales": 182.44444444444446,
+        "sale_diff": -12.45555555555552
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7900,8 +7900,8 @@
         "pop_diff": 0.015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.566666666666663
+        "sales": 35.666666666666664,
+        "sale_diff": 8.566666666666663
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -7919,8 +7919,8 @@
         "pop_diff": 0.0092,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.185185185185183
+        "sales": 11.185185185185185,
+        "sale_diff": 4.185185185185183
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7938,8 +7938,8 @@
         "pop_diff": -0.0006000000000000033,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2259259259259245
+        "sales": 14.25925925925926,
+        "sale_diff": 1.2259259259259245
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -7957,8 +7957,8 @@
         "pop_diff": 0.0017000000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0740740740740726
+        "sales": 5.0740740740740735,
+        "sale_diff": 1.0740740740740726
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7976,8 +7976,8 @@
         "pop_diff": 0.018600000000000172,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 27.092592592592553
+        "sales": 208.92592592592595,
+        "sale_diff": 27.092592592592553
     },
     {
         "itemType": "Zaw Riven Mod",
@@ -7995,8 +7995,8 @@
         "pop_diff": 0.07419999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 38.08518518518517
+        "sales": 133.5185185185185,
+        "sale_diff": 38.08518518518517
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8014,8 +8014,8 @@
         "pop_diff": 0.012999999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.148148148148147
+        "sales": 8.148148148148147,
+        "sale_diff": 5.148148148148147
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8033,8 +8033,8 @@
         "pop_diff": 0.0187,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 7.148148148148147
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8052,8 +8052,8 @@
         "pop_diff": -0.005500000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.3037037037036967
+        "sales": 21.37037037037037,
+        "sale_diff": 0.3037037037036967
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8071,8 +8071,8 @@
         "pop_diff": 0.009999999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.148148148148145
+        "sales": 8.148148148148147,
+        "sale_diff": 4.148148148148145
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8090,8 +8090,8 @@
         "pop_diff": -0.016599999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.922222222222224
+        "sales": 6.111111111111111,
+        "sale_diff": -4.922222222222224
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8109,8 +8109,8 @@
         "pop_diff": 0.011400000000000007,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.225925925925928
+        "sales": 14.25925925925926,
+        "sale_diff": 5.225925925925928
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8128,8 +8128,8 @@
         "pop_diff": 0.0049999999999999975,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.0740740740740726
+        "sales": 4.0740740740740735,
+        "sale_diff": 2.0740740740740726
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8147,8 +8147,8 @@
         "pop_diff": -0.03570000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.418518518518539
+        "sales": 44.81481481481481,
+        "sale_diff": -7.418518518518539
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8166,8 +8166,8 @@
         "pop_diff": 0.0021999999999999797,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.07037037037037
+        "sales": 73.37037037037037,
+        "sale_diff": 8.07037037037037
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8185,8 +8185,8 @@
         "pop_diff": -0.032100000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.422222222222217
+        "sales": 42.777777777777786,
+        "sale_diff": -6.422222222222217
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8204,8 +8204,8 @@
         "pop_diff": -0.012499999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.8444444444444468
+        "sales": 13.222222222222223,
+        "sale_diff": -2.8444444444444468
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8223,8 +8223,8 @@
         "pop_diff": -0.002599999999999991,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.4962962962962933
+        "sales": 33.62962962962963,
+        "sale_diff": 2.4962962962962933
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8242,8 +8242,8 @@
         "pop_diff": -0.001999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2666666666666657
+        "sales": 19.333333333333336,
+        "sale_diff": 1.2666666666666657
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8261,8 +8261,8 @@
         "pop_diff": 0.03789999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 17.829629629629622
+        "sales": 51.96296296296296,
+        "sale_diff": 17.829629629629622
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8280,8 +8280,8 @@
         "pop_diff": -0.0116,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.7296296296296347
+        "sales": 21.37037037037037,
+        "sale_diff": -1.7296296296296347
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8299,8 +8299,8 @@
         "pop_diff": -0.014400000000000024,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.540740740740759
+        "sales": 32.59259259259259,
+        "sale_diff": -1.540740740740759
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8318,8 +8318,8 @@
         "pop_diff": -0.011899999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.8481481481481516
+        "sales": 11.185185185185185,
+        "sale_diff": -2.8481481481481516
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8337,8 +8337,8 @@
         "pop_diff": 0.02510000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 13.870370370370367
+        "sales": 55.037037037037045,
+        "sale_diff": 13.870370370370367
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8356,8 +8356,8 @@
         "pop_diff": 0.013500000000000012,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.799999999999997
+        "sales": 53.0,
+        "sale_diff": 9.799999999999997
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8375,8 +8375,8 @@
         "pop_diff": 0.01090000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.607407407407408
+        "sales": 39.74074074074074,
+        "sale_diff": 7.607407407407408
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8394,8 +8394,8 @@
         "pop_diff": -0.0189,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.651851851851859
+        "sales": 26.481481481481477,
+        "sale_diff": -3.651851851851859
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -8413,8 +8413,8 @@
         "pop_diff": -0.0338,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.151851851851838
+        "sales": 61.148148148148145,
+        "sale_diff": -5.151851851851838
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -8432,8 +8432,8 @@
         "pop_diff": 0.04189999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 18.755555555555546
+        "sales": 47.888888888888886,
+        "sale_diff": 18.755555555555546
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8451,8 +8451,8 @@
         "pop_diff": 0.03270000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 15.792592592592598
+        "sales": 48.925925925925924,
+        "sale_diff": 15.792592592592598
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8470,8 +8470,8 @@
         "pop_diff": 0.08900000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 38.42962962962963
+        "sales": 87.62962962962963,
+        "sale_diff": 38.42962962962963
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8489,8 +8489,8 @@
         "pop_diff": 0.009500000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.303703703703704
+        "sales": 21.37037037037037,
+        "sale_diff": 5.303703703703704
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8508,8 +8508,8 @@
         "pop_diff": 0.0155,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.185185185185183
+        "sales": 10.185185185185185,
+        "sale_diff": 6.185185185185183
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8527,8 +8527,8 @@
         "pop_diff": 0.006699999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 3.148148148148147
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8546,8 +8546,8 @@
         "pop_diff": -0.0005000000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.03703703703703631
+        "sales": 2.0370370370370368,
+        "sale_diff": 0.03703703703703631
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8565,8 +8565,8 @@
         "pop_diff": -0.0242,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.500000000000014
+        "sales": 35.666666666666664,
+        "sale_diff": -4.500000000000014
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8584,8 +8584,8 @@
         "pop_diff": 0.010499999999999982,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.455555555555556
+        "sales": 29.555555555555554,
+        "sale_diff": 6.455555555555556
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8603,8 +8603,8 @@
         "pop_diff": -0.018699999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.225925925925935
+        "sales": 84.5925925925926,
+        "sale_diff": 2.225925925925935
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8622,8 +8622,8 @@
         "pop_diff": -0.04159999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.918518518518539
+        "sales": 79.48148148148148,
+        "sale_diff": -5.918518518518539
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8641,8 +8641,8 @@
         "pop_diff": -0.0021000000000000046,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11481481481481381
+        "sales": 8.148148148148147,
+        "sale_diff": 0.11481481481481381
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8660,8 +8660,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 1.0,
+        "sale_diff": 0
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8679,8 +8679,8 @@
         "pop_diff": -0.033799999999999886,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.570370370370313
+        "sales": 178.37037037037035,
+        "sale_diff": 6.570370370370313
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8698,8 +8698,8 @@
         "pop_diff": -0.025599999999999845,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.60740740740738
+        "sales": 181.40740740740742,
+        "sale_diff": 9.60740740740738
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -8717,8 +8717,8 @@
         "pop_diff": 0.003500000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.992592592592587
+        "sales": 68.25925925925925,
+        "sale_diff": 7.992592592592587
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -8736,8 +8736,8 @@
         "pop_diff": 0.020999999999999963,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.911111111111111
+        "sales": 59.11111111111111,
+        "sale_diff": 12.911111111111111
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8755,8 +8755,8 @@
         "pop_diff": 0.012900000000000009,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.337037037037035
+        "sales": 20.37037037037037,
+        "sale_diff": 6.337037037037035
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8774,8 +8774,8 @@
         "pop_diff": -0.006799999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.9629629629629624
+        "sales": 3.0370370370370376,
+        "sale_diff": -1.9629629629629624
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8793,8 +8793,8 @@
         "pop_diff": 0.008400000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.225925925925928
+        "sales": 14.25925925925926,
+        "sale_diff": 4.225925925925928
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -8812,8 +8812,8 @@
         "pop_diff": -0.0007999999999999986,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.0370370370370372
+        "sales": 3.0370370370370376,
+        "sale_diff": 0.0370370370370372
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8831,8 +8831,8 @@
         "pop_diff": -0.0464,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -9.14814814814816
+        "sales": 63.18518518518518,
+        "sale_diff": -9.14814814814816
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8850,8 +8850,8 @@
         "pop_diff": 0.041000000000000036,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 24.67407407407407
+        "sales": 110.07407407407409,
+        "sale_diff": 24.67407407407407
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -8869,8 +8869,8 @@
         "pop_diff": 0.0182,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.185185185185183
+        "sales": 11.185185185185185,
+        "sale_diff": 7.185185185185183
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -8888,8 +8888,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 6.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8907,8 +8907,8 @@
         "pop_diff": 0.024900000000000033,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 17.370370370370352
+        "sales": 90.70370370370371,
+        "sale_diff": 17.370370370370352
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8926,8 +8926,8 @@
         "pop_diff": 0.0928,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 41.737037037037055
+        "sales": 108.03703703703704,
+        "sale_diff": 41.737037037037055
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8945,8 +8945,8 @@
         "pop_diff": 0.019100000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.300000000000004
+        "sales": 19.333333333333336,
+        "sale_diff": 8.300000000000004
     },
     {
         "itemType": "Melee Riven Mod",
@@ -8964,8 +8964,8 @@
         "pop_diff": 0.015,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.222222222222221
+        "sales": 12.222222222222221,
+        "sale_diff": 6.222222222222221
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -8983,8 +8983,8 @@
         "pop_diff": -0.02789999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -4.3074074074074105
+        "sales": 49.92592592592593,
+        "sale_diff": -4.3074074074074105
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9002,8 +9002,8 @@
         "pop_diff": -0.031299999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.4592592592592695
+        "sales": 39.74074074074074,
+        "sale_diff": -6.4592592592592695
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9021,8 +9021,8 @@
         "pop_diff": 0.0169,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.262962962962959
+        "sales": 16.296296296296294,
+        "sale_diff": 7.262962962962959
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9040,8 +9040,8 @@
         "pop_diff": -0.009499999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.9629629629629632
+        "sales": 2.0370370370370368,
+        "sale_diff": -2.9629629629629632
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9059,8 +9059,8 @@
         "pop_diff": -0.005499999999999949,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 9.681481481481455
+        "sales": 115.14814814814815,
+        "sale_diff": 9.681481481481455
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9078,8 +9078,8 @@
         "pop_diff": -0.045600000000000085,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.18888888888886868
+        "sales": 153.88888888888889,
+        "sale_diff": 0.18888888888886868
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9097,8 +9097,8 @@
         "pop_diff": -0.03570000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -10.881481481481485
+        "sales": 10.185185185185185,
+        "sale_diff": -10.881481481481485
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9116,8 +9116,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11111111111111072
+        "sales": 6.111111111111111,
+        "sale_diff": 0.11111111111111072
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9135,8 +9135,8 @@
         "pop_diff": -0.011800000000000033,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.9962962962962933
+        "sales": 69.29629629629629,
+        "sale_diff": 2.9962962962962933
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9154,8 +9154,8 @@
         "pop_diff": -0.04299999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -9.340740740740742
+        "sales": 49.92592592592593,
+        "sale_diff": -9.340740740740742
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9173,8 +9173,8 @@
         "pop_diff": -0.021199999999999997,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.844444444444445
+        "sales": 12.222222222222221,
+        "sale_diff": -5.844444444444445
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9192,8 +9192,8 @@
         "pop_diff": -0.022399999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -6.9592592592592615
+        "sales": 5.0740740740740735,
+        "sale_diff": -6.9592592592592615
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9211,8 +9211,8 @@
         "pop_diff": -0.056500000000000106,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -7.418518518518539
+        "sales": 114.14814814814814,
+        "sale_diff": -7.418518518518539
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9230,8 +9230,8 @@
         "pop_diff": 0.03520000000000012,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 34.35925925925926
+        "sales": 226.25925925925927,
+        "sale_diff": 34.35925925925926
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -9249,8 +9249,8 @@
         "pop_diff": -0.0237,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.192592592592618
+        "sales": 57.07407407407407,
+        "sale_diff": -2.192592592592618
     },
     {
         "itemType": "Shotgun Riven Mod",
@@ -9268,8 +9268,8 @@
         "pop_diff": -0.021100000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.348148148148155
+        "sales": 46.851851851851855,
+        "sale_diff": -2.348148148148155
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9287,8 +9287,8 @@
         "pop_diff": -0.0827,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -12.992592592592587
+        "sales": 145.74074074074076,
+        "sale_diff": -12.992592592592587
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9306,8 +9306,8 @@
         "pop_diff": 0.011799999999999922,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 15.755555555555532
+        "sales": 118.22222222222221,
+        "sale_diff": 15.755555555555532
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -9325,8 +9325,8 @@
         "pop_diff": -0.14359999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -22.488888888888937
+        "sales": 253.77777777777777,
+        "sale_diff": -22.488888888888937
     },
     {
         "itemType": "Kitgun Riven Mod",
@@ -9344,8 +9344,8 @@
         "pop_diff": -0.024699999999999944,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 18.981481481481524
+        "sales": 272.14814814814815,
+        "sale_diff": 18.981481481481524
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9363,8 +9363,8 @@
         "pop_diff": -0.005400000000000016,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.4592592592592553
+        "sales": 32.59259259259259,
+        "sale_diff": 1.4592592592592553
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9382,8 +9382,8 @@
         "pop_diff": -0.009300000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.6555555555555657
+        "sales": 24.444444444444443,
+        "sale_diff": -0.6555555555555657
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9401,8 +9401,8 @@
         "pop_diff": -0.0063,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.34444444444443434
+        "sales": 24.444444444444443,
+        "sale_diff": 0.34444444444443434
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9420,8 +9420,8 @@
         "pop_diff": 0.0169,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 7.262962962962959
+        "sales": 16.296296296296294,
+        "sale_diff": 7.262962962962959
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9439,8 +9439,8 @@
         "pop_diff": -0.015100000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.6925925925925966
+        "sales": 23.40740740740741,
+        "sale_diff": -2.6925925925925966
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9458,8 +9458,8 @@
         "pop_diff": 0.0097,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 4.148148148148147
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9477,8 +9477,8 @@
         "pop_diff": 0.020500000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.25925925925926
+        "sales": 14.25925925925926,
+        "sale_diff": 8.25925925925926
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9496,8 +9496,8 @@
         "pop_diff": 0,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0
+        "sales": 3.0370370370370376,
+        "sale_diff": 0
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9515,8 +9515,8 @@
         "pop_diff": 0.009500000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 6.529629629629632
+        "sales": 33.62962962962963,
+        "sale_diff": 6.529629629629632
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9534,8 +9534,8 @@
         "pop_diff": 0.017100000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 8.451851851851856
+        "sales": 27.518518518518523,
+        "sale_diff": 8.451851851851856
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9553,8 +9553,8 @@
         "pop_diff": -0.46140000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -144.32222222222225
+        "sales": 94.77777777777777,
+        "sale_diff": -144.32222222222225
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9572,8 +9572,8 @@
         "pop_diff": -0.385,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -121.60740740740738
+        "sales": 67.25925925925927,
+        "sale_diff": -121.60740740740738
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9591,8 +9591,8 @@
         "pop_diff": -0.012500000000000011,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.6185185185185205
+        "sales": 25.48148148148148,
+        "sale_diff": -1.6185185185185205
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9610,8 +9610,8 @@
         "pop_diff": -0.014399999999999996,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.8851851851851897
+        "sales": 9.148148148148147,
+        "sale_diff": -3.8851851851851897
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9629,8 +9629,8 @@
         "pop_diff": -0.025599999999999984,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.577777777777772
+        "sales": 29.555555555555554,
+        "sale_diff": -5.577777777777772
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9648,8 +9648,8 @@
         "pop_diff": -0.006099999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8111111111111136
+        "sales": 12.222222222222221,
+        "sale_diff": -0.8111111111111136
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9667,8 +9667,8 @@
         "pop_diff": 0.03609999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 15.599999999999994
+        "sales": 35.666666666666664,
+        "sale_diff": 15.599999999999994
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9686,8 +9686,8 @@
         "pop_diff": -0.015700000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.8074074074074105
+        "sales": 14.25925925925926,
+        "sale_diff": -3.8074074074074105
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9705,8 +9705,8 @@
         "pop_diff": 0.00010000000000000286,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.151851851851852
+        "sales": 11.185185185185185,
+        "sale_diff": 1.151851851851852
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9724,8 +9724,8 @@
         "pop_diff": -0.0023999999999999994,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 0.11481481481481381
+        "sales": 9.148148148148147,
+        "sale_diff": 0.11481481481481381
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9743,8 +9743,8 @@
         "pop_diff": 0.010899999999999993,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.262962962962959
+        "sales": 16.296296296296294,
+        "sale_diff": 5.262962962962959
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9762,8 +9762,8 @@
         "pop_diff": 0.0024999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370363
+        "sales": 2.0370370370370368,
+        "sale_diff": 1.0370370370370363
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9781,8 +9781,8 @@
         "pop_diff": -0.0015000000000000013,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.2296296296296276
+        "sales": 17.296296296296294,
+        "sale_diff": 1.2296296296296276
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9800,8 +9800,8 @@
         "pop_diff": 0.007000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.266666666666666
+        "sales": 19.333333333333336,
+        "sale_diff": 4.266666666666666
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9819,8 +9819,8 @@
         "pop_diff": -0.06659999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -10.377777777777752
+        "sales": 118.22222222222221,
+        "sale_diff": -10.377777777777752
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9838,8 +9838,8 @@
         "pop_diff": -0.14949999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -11.611111111111086
+        "sales": 382.2222222222223,
+        "sale_diff": -11.611111111111086
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9857,8 +9857,8 @@
         "pop_diff": -0.011000000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -1.7333333333333343
+        "sales": 19.333333333333336,
+        "sale_diff": -1.7333333333333343
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -9876,8 +9876,8 @@
         "pop_diff": -0.011099999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -2.885185185185186
+        "sales": 8.148148148148147,
+        "sale_diff": -2.885185185185186
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9895,8 +9895,8 @@
         "pop_diff": 0.0040000000000000036,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.2666666666666657
+        "sales": 19.333333333333336,
+        "sale_diff": 3.2666666666666657
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9914,8 +9914,8 @@
         "pop_diff": -0.004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.9259259259259256
+        "sales": 4.0740740740740735,
+        "sale_diff": -0.9259259259259256
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9933,8 +9933,8 @@
         "pop_diff": -0.005400000000000002,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.8851851851851862
+        "sales": 9.148148148148147,
+        "sale_diff": -0.8851851851851862
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -9952,8 +9952,8 @@
         "pop_diff": 0.0024999999999999988,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 1.0370370370370363
+        "sales": 2.0370370370370368,
+        "sale_diff": 1.0370370370370363
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9971,8 +9971,8 @@
         "pop_diff": 0.028799999999999992,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.451851851851856
+        "sales": 28.51851851851852,
+        "sale_diff": 12.451851851851856
     },
     {
         "itemType": "Melee Riven Mod",
@@ -9990,8 +9990,8 @@
         "pop_diff": 0.012500000000000004,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.185185185185185
+        "sales": 10.185185185185185,
+        "sale_diff": 5.185185185185185
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10009,8 +10009,8 @@
         "pop_diff": -0.06159999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -15.337037037037035
+        "sales": 51.96296296296296,
+        "sale_diff": -15.337037037037035
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10028,8 +10028,8 @@
         "pop_diff": -0.1018,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -25.985185185185202
+        "sales": 79.48148148148148,
+        "sale_diff": -25.985185185185202
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10047,8 +10047,8 @@
         "pop_diff": 0.005600000000000008,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.18888888888889
+        "sales": 13.222222222222223,
+        "sale_diff": 3.18888888888889
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10066,8 +10066,8 @@
         "pop_diff": -0.013900000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9222222222222243
+        "sales": 7.111111111111111,
+        "sale_diff": -3.9222222222222243
     },
     {
         "itemType": "Melee Riven Mod",
@@ -10085,8 +10085,8 @@
         "pop_diff": -0.0476,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -12.607407407407422
+        "sales": 32.59259259259259,
+        "sale_diff": -12.607407407407422
     },
     {
         "itemType": "Melee Riven Mod",
@@ -10104,8 +10104,8 @@
         "pop_diff": -0.02510000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.614814814814817
+        "sales": 27.518518518518523,
+        "sale_diff": -5.614814814814817
     },
     {
         "itemType": "Melee Riven Mod",
@@ -10123,8 +10123,8 @@
         "pop_diff": 0.03400000000000003,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 20.403703703703712
+        "sales": 90.70370370370371,
+        "sale_diff": 20.403703703703712
     },
     {
         "itemType": "Melee Riven Mod",
@@ -10142,8 +10142,8 @@
         "pop_diff": -0.001999999999999974,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.6111111111111143
+        "sales": 42.777777777777786,
+        "sale_diff": 3.6111111111111143
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -10161,8 +10161,8 @@
         "pop_diff": 0.006500000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 5.529629629629632
+        "sales": 33.62962962962963,
+        "sale_diff": 5.529629629629632
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -10180,8 +10180,8 @@
         "pop_diff": 0.0045000000000000005,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.1111111111111107
+        "sales": 6.111111111111111,
+        "sale_diff": 2.1111111111111107
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10199,8 +10199,8 @@
         "pop_diff": 0.02260000000000001,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.833333333333329
+        "sales": 53.0,
+        "sale_diff": 12.833333333333329
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10218,8 +10218,8 @@
         "pop_diff": 0.025400000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 12.644444444444431
+        "sales": 41.77777777777777,
+        "sale_diff": 12.644444444444431
     },
     {
         "itemType": "Melee Riven Mod",
@@ -10237,8 +10237,8 @@
         "pop_diff": -0.019199999999999995,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 2.2629629629629733
+        "sales": 86.62962962962963,
+        "sale_diff": 2.2629629629629733
     },
     {
         "itemType": "Melee Riven Mod",
@@ -10256,8 +10256,8 @@
         "pop_diff": -0.038900000000000046,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.6925925925926038
+        "sales": 92.74074074074075,
+        "sale_diff": -3.6925925925926038
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10275,8 +10275,8 @@
         "pop_diff": -0.010399999999999965,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 4.074074074074048
+        "sales": 75.4074074074074,
+        "sale_diff": 4.074074074074048
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10294,8 +10294,8 @@
         "pop_diff": -0.01319999999999999,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -0.42592592592593803
+        "sales": 39.74074074074074,
+        "sale_diff": -0.42592592592593803
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10313,8 +10313,8 @@
         "pop_diff": 0.0267,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 11.44814814814815
+        "sales": 25.48148148148148,
+        "sale_diff": 11.44814814814815
     },
     {
         "itemType": "Rifle Riven Mod",
@@ -10332,8 +10332,8 @@
         "pop_diff": -0.013900000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -3.9222222222222243
+        "sales": 7.111111111111111,
+        "sale_diff": -3.9222222222222243
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -10351,8 +10351,8 @@
         "pop_diff": -0.022000000000000006,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": -5.8074074074074105
+        "sales": 15.25925925925926,
+        "sale_diff": -5.8074074074074105
     },
     {
         "itemType": "Pistol Riven Mod",
@@ -10370,7 +10370,7 @@
         "pop_diff": 0.006699999999999998,
         "median": 0,
         "median_diff": 0,
-        "sales": 37037.03703703704,
-        "total_sales": 3.148148148148147
+        "sales": 9.148148148148147,
+        "sale_diff": 3.148148148148147
     }
 ]

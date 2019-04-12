@@ -221,7 +221,7 @@ def comparison(platform, raw_dict, total_dict, sales, filename):
             median = 0
             median_diff = 0
 
-        current_sales = sales * raw["pop"] / 100
+        current_sales = (sales * raw["pop"]) / 100
         try:
             avg_diff = raw["avg"] - ((total["total_avg"] - raw["avg"]) / (total["count"] - 1))
             stddev_diff = raw["stddev"] - ((total["total_stddev"] - raw["stddev"]) / (total["count"] - 1))
@@ -253,8 +253,8 @@ def comparison(platform, raw_dict, total_dict, sales, filename):
             "pop_diff": pop_diff,
             "median": raw["median"],
             "median_diff": median_diff,
-            "sales": sales,
-            "total_sales": sales_diff
+            "sales": current_sales,
+            "sale_diff": sales_diff
         })
 
     edited_path = EDIT_PATH.format(platform) + filename
