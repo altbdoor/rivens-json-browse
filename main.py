@@ -2,8 +2,7 @@ import requests
 import json
 import datetime
 import os
-'''TO DO LIST:
-Create the TOTAL sorting'''
+from operator import itemgetter
 
 
 # GLOBALS
@@ -11,7 +10,7 @@ PATH = os.path.dirname(os.path.realpath(__file__))   # Gets the absolute path fo
 RAW_PATH = PATH + "/data/{}/raw/"
 EDIT_PATH = PATH + "/data/{}/edited/"
 FILE_NAME = "Riven_data_{}_{}.json"
-TOTAL_FILE_NAME = "TOTAL_{}.json"
+TOTAL_FILE_PATH = EDIT_PATH + "TOTAL_{}.json"
 L_MONDAY = ""
 PLATFORMS = ["PC", "PS4", "XB1", "SWI"]
 URL = "https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivens{}.json"
@@ -27,7 +26,8 @@ def last_monday():
 # Gets the json for a given platform
 def get_riven_json(platform):
     print(f"Checking if this week json for {platform} is saved!")
-    file_path = RAW_PATH.format(platform) + FILE_NAME.format(platform, L_MONDAY.strftime("%y-%m-%d"))
+    filename = FILE_NAME.format(platform, L_MONDAY.strftime("%y-%m-%d"))
+    file_path = f"{RAW_PATH.format(platform)}{filename}"
 
     # Checks if the file already exists
     if not os.path.isfile(file_path):
@@ -48,8 +48,8 @@ def process_data(platform):
     for filename in os.listdir(RAW_PATH.format(platform)):
         print(f"Processing {filename}\n")
         date = filename.rstrip(".json")[-8:]
-        raw_file_path = RAW_PATH.format(platform) + filename
-        edit_file_path = EDIT_PATH.format(platform) + filename
+        raw_file_path = f"{RAW_PATH.format(platform)}{filename}"
+        edit_file_path = f"{EDIT_PATH.format(platform)}{filename}"
         if os.path.isfile(edit_file_path):
             print(f"/edited/{filename} Aleady exists!")
         else:
@@ -85,9 +85,8 @@ def sale_calc(data):
 
 # Creates the total files
 def total_json(platform, raw_dict, date, sales):
-    total_path = EDIT_PATH.format(platform) + TOTAL_FILE_NAME.format(platform)
     try:
-        with open(total_path, "r") as file:
+        with open(TOTAL_FILE_PATH.format(platform, platform), "r") as file:
             total_file = json.load(file)
             total_dict = create_dict(total_file, 3)
             dates = total_file[0]
@@ -196,7 +195,7 @@ def total_json(platform, raw_dict, date, sales):
         total_dict = create_dict(total_file, 3)
     print(f"Saving TOTAL_{platform}.json\n")
 
-    with open(total_path, "w") as file:
+    with open(TOTAL_FILE_PATH.format(platform, platform), "w") as file:
         json.dump(total_file, file, indent=4)
     return total_dict
 
@@ -257,7 +256,7 @@ def comparison(platform, raw_dict, total_dict, sales, filename):
             "sale_diff": sales_diff
         })
 
-    edited_path = EDIT_PATH.format(platform) + filename
+    edited_path = f"{EDIT_PATH.format(platform)}{filename}"
     with open(edited_path, "w") as file:
         json.dump(edited_list, file, indent=4)
     print(f"Saved {filename} Edited\n-----------------\n")
@@ -265,7 +264,7 @@ def comparison(platform, raw_dict, total_dict, sales, filename):
 
 # Creates a dictoniary with name as key and the data as a value for easy use
 def create_dict(data, mode):
-    '''Creates the usefull dicts
+    '''Creates the useful dicts
     Mode 1 for raw data
     Mode 2 for edited data
     Mode 3 for Total data'''
@@ -309,25 +308,8 @@ def create_dict(data, mode):
             else:
                 name = f"{d['compatibility']}_F"
 
-            data_dict[name] = {
-                "itemType": d["itemType"],
-                "compatibility": d["compatibility"],
-                "rerolled": d["rerolled"],
-                "avg": d["avg"],
-                "avg_diff": d["avg_diff"],
-                "stddev": d["stddev"],
-                "stddev_diff": d["stddev_diff"],
-                "min": d["min"],
-                "min_diff": d["min_diff"],
-                "max": d["max"],
-                "max_diff": d["max_diff"],
-                "pop": d["pop"],
-                "pop_diff": d["pop_diff"],
-                "median": d["median"],
-                "median_diff": d["median_diff"],
-                "sales": d["sales"],
-                "sales_diff": d["sales_diff"]
-            }
+            data_dict[name] = {d}
+
     if mode == 3:
         for d in data[1]:
 
@@ -356,9 +338,16 @@ def create_dict(data, mode):
     return data_dict
 
 
-# Sorts the TOTAL dict because of how awkward the API data is
-def dict_sort(dict):
-    pass
+def total_sort(platform):
+    '''Sorts the TOTAL file. First by weapon name then by rerolled status and keeps the veiled first'''
+    print(f"Sorting TOTAL_{platform}")
+    with open(TOTAL_FILE_PATH.format(platform, platform), "r") as file:
+        data = json.load(file)
+    veiled = data[1][0:6]
+    un_veiled = sorted(data[1][6:], key=itemgetter('compatibility', 'rerolled'))
+    sorted_file = [data[0], veiled + un_veiled]
+    with open(TOTAL_FILE_PATH.format(platform, platform), "w") as file:
+        json.dump(sorted_file, file, indent=4)
 
 
 if __name__ == '__main__':
@@ -367,3 +356,4 @@ if __name__ == '__main__':
         print(f"\n-----------------\n     {p}     \n-----------------\n")
         get_riven_json(p)
         process_data(p)
+        total_sort(p)
