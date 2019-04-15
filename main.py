@@ -16,15 +16,15 @@ PLATFORMS = ["PC", "PS4", "XB1", "SWI"]
 URL = "https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivens{}.json"
 
 
-# Gets the last monday date
 def last_monday():
+    '''Gets the last monday date'''
     today = datetime.date.today()
     monday = today - datetime.timedelta(days=today.weekday())
     return monday
 
 
-# Gets the json for a given platform
 def get_riven_json(platform):
+    '''Gets the json for a given platform'''
     print(f"Checking if this week json for {platform} is saved!")
     filename = FILE_NAME.format(platform, L_MONDAY.strftime("%y-%m-%d"))
     file_path = f"{RAW_PATH.format(platform)}{filename}"
@@ -41,30 +41,35 @@ def get_riven_json(platform):
         print("File already exists!\n-----------------")
 
 
-# Takes the raw data and saves the edited JSON
 def process_data(platform):
+    '''Calls all of the processing functions for every raw file'''
 
-    # Goes over every file in the raw folder and checks if it has a edited version
+    # Goes over every file in the raw folder and processes the data for it
     for filename in os.listdir(RAW_PATH.format(platform)):
-        print(f"Processing {filename}\n")
+
+        print(f"\nProcessing {filename}\n")
+
         date = filename.rstrip(".json")[-8:]
         raw_file_path = f"{RAW_PATH.format(platform)}{filename}"
         edit_file_path = f"{EDIT_PATH.format(platform)}{filename}"
+
+        with open(raw_file_path, "r") as raw:
+            raw_data = json.load(raw)
+            sales = sale_calc(raw_data)
+            raw_dict = create_dict(raw_data, 1)
+            del raw_data
+
+        # Checks if the raw data is in the TOTAL file and returns the total dict
+        total_dict = total_json(platform, raw_dict, date, sales)
+
         if os.path.isfile(edit_file_path):
             print(f"/edited/{filename} Aleady exists!")
         else:
-            with open(raw_file_path, "r") as raw:
-                raw_data = json.load(raw)
-                sales = sale_calc(raw_data)
-                raw_dict = create_dict(raw_data, 1)
-                del raw_data
-
-            total_dict = total_json(platform, raw_dict, date, sales)
             comparison(platform, raw_dict, total_dict, sales, filename)
 
 
-# Calculates the number of sales
 def sale_calc(data):
+    '''Calculates the number of sales'''
     print("Calculating the total sales number!")
     min_price = []
     max_price = []
@@ -83,8 +88,8 @@ def sale_calc(data):
         return None
 
 
-# Creates the total files
 def total_json(platform, raw_dict, date, sales):
+    '''Creates the total files'''
     try:
         with open(TOTAL_FILE_PATH.format(platform, platform), "r") as file:
             total_file = json.load(file)
@@ -94,70 +99,71 @@ def total_json(platform, raw_dict, date, sales):
         print(f"Found TOTAL_{platform} adding data!")
 
         if date in dates:
-            print("Date already exists something is wrong!")
+            print(f"Data from {date} already in TOTAL!")
+            return total_dict      # Will stop the function to prevent the unneeded saving of the same data
+        else:
+            dates.append(date)
 
-        dates.append(date)
+            for key in list(raw_dict.keys()):
+                if raw_dict[key]["median"] == 0:
+                    median_count = 0
+                else:
+                    median_count = 1
 
-        for key in list(raw_dict.keys()):
-            if raw_dict[key]["median"] == 0:
-                median_count = 0
-            else:
-                median_count = 1
+                raw = raw_dict[key]
+                # File exists riven already in file
+                if key in total_dict:
+                    total = total_dict[key]
+                    total["itemType"] = raw["itemType"]
+                    total["compatibility"] = raw["compatibility"]
+                    total["rerolled"] = raw["rerolled"]
+                    total["total_avg"] += raw["avg"]
+                    total["total_stddev"] += raw["stddev"]
+                    total["total_min"] += raw["min"]
+                    total["total_max"] += raw["max"]
+                    total["total_pop"] += raw["pop"]
+                    total["total_sales"] += raw["pop"] * sales / 100
+                    total["total_median"] += raw["median"]
+                    total["median_count"] += median_count
+                    total["count"] += 1
 
-            raw = raw_dict[key]
-            # File exists riven already in file
-            if key in total_dict:
+                # File exists riven not in file
+                else:
+                    total_dict[key] = {
+                        "itemType": raw["itemType"],
+                        "compatibility": raw["compatibility"],
+                        "rerolled": raw["rerolled"],
+                        "total_avg": raw["avg"],
+                        "total_stddev": raw["stddev"],
+                        "total_min": raw["min"],
+                        "total_max": raw["max"],
+                        "total_pop": raw["pop"],
+                        "total_sales": raw["pop"] * sales / 100,
+                        "total_median": raw["median"],
+                        "median_count": median_count,
+                        "count": 1,
+                    }
+            total_file = []
+            total_file.append(dates)
+
+            d_l = []
+            for key in list(total_dict.keys()):
                 total = total_dict[key]
-                total["itemType"] = raw["itemType"]
-                total["compatibility"] = raw["compatibility"]
-                total["rerolled"] = raw["rerolled"]
-                total["total_avg"] += raw["avg"]
-                total["total_stddev"] += raw["stddev"]
-                total["total_min"] += raw["min"]
-                total["total_max"] += raw["max"]
-                total["total_pop"] += raw["pop"]
-                total["total_sales"] += raw["pop"] * sales / 100
-                total["total_median"] += raw["median"]
-                total["median_count"] += median_count
-                total["count"] += 1
-
-            # File exists riven not in file
-            else:
-                total_dict[key] = {
-                    "itemType": raw["itemType"],
-                    "compatibility": raw["compatibility"],
-                    "rerolled": raw["rerolled"],
-                    "total_avg": raw["avg"],
-                    "total_stddev": raw["stddev"],
-                    "total_min": raw["min"],
-                    "total_max": raw["max"],
-                    "total_pop": raw["pop"],
-                    "total_sales": raw["pop"] * sales / 100,
-                    "total_median": raw["median"],
-                    "median_count": median_count,
-                    "count": 1,
-                }
-        total_file = []
-        total_file.append(dates)
-
-        d_l = []
-        for key in list(total_dict.keys()):
-            total = total_dict[key]
-            d_l.append({
-                "itemType": total["itemType"],
-                "compatibility": total["compatibility"],
-                "rerolled": total["rerolled"],
-                "total_avg": total["total_avg"],
-                "total_stddev": total["total_stddev"],
-                "total_min": total["total_min"],
-                "total_max": total["total_max"],
-                "total_pop": total["total_pop"],
-                "total_sales": total["total_sales"],
-                "total_median": total["total_median"],
-                "median_count": total["median_count"],
-                "count": total["count"]
-            })
-        total_file.append(d_l)
+                d_l.append({
+                    "itemType": total["itemType"],
+                    "compatibility": total["compatibility"],
+                    "rerolled": total["rerolled"],
+                    "total_avg": total["total_avg"],
+                    "total_stddev": total["total_stddev"],
+                    "total_min": total["total_min"],
+                    "total_max": total["total_max"],
+                    "total_pop": total["total_pop"],
+                    "total_sales": total["total_sales"],
+                    "total_median": total["total_median"],
+                    "median_count": total["median_count"],
+                    "count": total["count"]
+                })
+            total_file.append(d_l)
 
     # File doesn't exist
     except FileNotFoundError:
@@ -200,8 +206,8 @@ def total_json(platform, raw_dict, date, sales):
     return total_dict
 
 
-# Does all of the comparisons
 def comparison(platform, raw_dict, total_dict, sales, filename):
+    '''Does all of the comparisons'''
     edited_list = []
     for key in list(raw_dict.keys()):
         total = total_dict[key]
@@ -262,9 +268,8 @@ def comparison(platform, raw_dict, total_dict, sales, filename):
     print(f"Saved {filename} Edited\n-----------------\n")
 
 
-# Creates a dictoniary with name as key and the data as a value for easy use
 def create_dict(data, mode):
-    '''Creates the useful dicts
+    '''Creates the useful dicts with name as key and the data as a value
     Mode 1 for raw data
     Mode 2 for edited data
     Mode 3 for Total data'''
