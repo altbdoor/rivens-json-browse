@@ -54,10 +54,10 @@
 
                 if (monday !== 'all') {
                     const mondayFormatted = $filter('date')(monday, 'yy-MM-dd')
-                    url = `Riven_data_PC_${mondayFormatted}`
+                    url = `Riven_data_${platform}_${mondayFormatted}`
                 }
 
-                url = `https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master/data/PC/edited/${url}.json`
+                url = `https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master/data/${platform}/edited/${url}.json`
 
                 vm.failed = false
                 vm.loading = true
