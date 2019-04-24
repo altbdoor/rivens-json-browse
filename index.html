@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rivens JSON Browse</title>
+
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ng-table@3.0.1/bundles/ng-table.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body ng-app="RivensBrowseApp">
+    <div class="container py-3" ng-controller="RivensBrowseController as vm">
+        <div class="row justify-content-center mb-2">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Platform:</span>
+                    </div>
+                    <select
+                        class="form-control"
+                        ng-model="vm.selectedPlatform"
+                        ng-change="vm.getRivens(vm.selectedPlatform, vm.selectedMonday)"
+                    >
+                        <option ng-repeat="platform in vm.platforms" ng-value="platform.value">
+                            {{ platform.name }}
+                        </option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Date:</span>
+                    </div>
+                    <select
+                        class="form-control"
+                        ng-model="vm.selectedMonday"
+                        ng-change="vm.getRivens(vm.selectedPlatform, vm.selectedMonday)"
+                    >
+                        <option ng-repeat="monday in vm.mondayList" ng-value="monday">
+                            {{ monday | date: 'mediumDate' }}
+                        </option>
+                    </select>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <div class="form-check form-check-inline mr-0">
+                        <input id="show-total-compare" type="checkbox" class="form-check-input" ng-model="vm.showTotalCompare">
+                        <label for="show-total-compare" class="form-check-label">
+                            Show comparison with total average data?
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ng-show="vm.loading">
+            <div class="row justify-content-center mb-2">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="alert alert-info text-center">
+                        Loading Rivens data...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="!vm.loading">
+            <div ng-show="vm.failed">
+                <div class="row justify-content-center mb-2">
+                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                        <div class="alert alert-danger text-center">
+                            Failed to load Rivens data!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive" ng-show="!vm.failed">
+                <p class="small mb-2 text-center">
+                    Showing {{ vm.tableParams.total() }} parsed Rivens data from
+                    <a href="https://github.com/Kanjirito/rivens-json-browse-back-end">Kanjirito/rivens-json-browse-back-end</a>
+                </p>
+
+                <table ng-table="vm.tableParams" class="table table-striped table-sm table-hover" show-filter="true" template-pagination="custom/pager">
+                    <tr ng-repeat="riven in $data">
+                        <td data-title="'Type'" class="type-col-width" sortable="'itemType'" filter="{itemType: 'text'}">
+                            {{ riven.itemType }}
+                        </td>
+                        <td data-title="'Weapon'" class="weapon-col-width" sortable="'compatibility'" filter="{compatibility: 'text'}">
+                            <span ng-show="riven.compatibility">{{ riven.compatibility }}</span>
+                            <span ng-show="!riven.compatibility">-- Veiled --</span>
+                        </td>
+                        <td data-title="'Rerolled'" class="min-col-width" sortable="'rerolled'" filter="{rerolled: 'custom/rerolled'}">
+                            <span ng-show="riven.rerolled" class="badge badge-success">Yes</span>
+                            <span ng-show="!riven.rerolled" class="badge badge-danger">No</span>
+                        </td>
+                        <td data-title="'Avg'" class="text-right min-col-width" sortable="'avg'">
+                            {{ riven.avg | number: 2 }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.avg_diff > 0, 'text-danger': riven.avg_diff < 0, 'text-secondary': riven.avg_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.avg_diff > 0">+</span>{{ riven.avg_diff | number: 2 }}
+                            </div>
+                        </td>
+                        <td data-title="'Median'" class="text-right min-col-width" sortable="'median'">
+                            {{ riven.median | number: 2 }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.median_diff > 0, 'text-danger': riven.median_diff < 0, 'text-secondary': riven.median_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.median_diff > 0">+</span>{{ riven.median_diff | number: 2 }}
+                            </div>
+                        </td>
+                        <td data-title="'StdDev'" class="text-right min-col-width" sortable="'stddev'">
+                            {{ riven.stddev | number: 2 }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.stddev_diff > 0, 'text-danger': riven.stddev_diff < 0, 'text-secondary': riven.stddev_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.stddev_diff > 0">+</span>{{ riven.stddev_diff | number: 2 }}
+                            </div>
+                        </td>
+                        <td data-title="'Min'" class="text-right number-col-width" sortable="'min'" filter="{min: 'number'}">
+                            {{ riven.min | number }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.min_diff > 0, 'text-danger': riven.min_diff < 0, 'text-secondary': riven.min_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.min_diff > 0">+</span>{{ riven.min_diff | number: 2 }}
+                            </div>
+                        </td>
+                        <td data-title="'Max'" class="text-right number-col-width" sortable="'max'" filter="{max: 'number'}">
+                            {{ riven.max | number }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.max_diff > 0, 'text-danger': riven.max_diff < 0, 'text-secondary': riven.max_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.max_diff > 0">+</span>{{ riven.max_diff | number: 2 }}
+                            </div>
+                        </td>
+                        <td data-title="'Pop'" class="text-right min-col-width" sortable="'pop'">
+                            {{ riven.pop | number: 2 }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.pop_diff > 0, 'text-danger': riven.pop_diff < 0, 'text-secondary': riven.pop_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.pop_diff > 0">+</span>{{ riven.pop_diff | number: 2 }}
+                            </div>
+                        </td>
+                        <td data-title="'Est.&nbsp;Sales'" class="text-right min-col-width" sortable="'sales'">
+                            {{ riven.sales | number: 2 }}
+                            <div
+                                class="small font-weight-bold"
+                                ng-class="{'text-success': riven.sale_diff > 0, 'text-danger': riven.sale_diff < 0, 'text-secondary': riven.sale_diff === 0}"
+                                ng-show="vm.showTotalCompare"
+                            >
+                                <span ng-show="riven.sale_diff > 0">+</span>{{ riven.sale_diff | number: 2 }}
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <script type="text/ng-template" id="custom/pager">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-6">
+                            <ul class="pagination mb-0" ng-show="pages.length">
+                                <li class="page-item" ng-class="{'disabled': !page.active && !page.current, 'active': page.current}" ng-repeat="page in pages" ng-switch="page.type">
+                                    <a class="page-link" ng-switch-when="prev" ng-click="params.page(page.number)" href="">&laquo;</a>
+                                    <a class="page-link" ng-switch-when="first" ng-click="params.page(page.number)" href="">{{ page.number }}</a>
+                                    <a class="page-link" ng-switch-when="page" ng-click="params.page(page.number)" href="">{{ page.number }}</a>
+                                    <a class="page-link" ng-switch-when="more" ng-click="params.page(page.number)" href="">&#8230;</a>
+                                    <a class="page-link" ng-switch-when="last" ng-click="params.page(page.number)" href="">{{ page.number }}</a>
+                                    <a class="page-link" ng-switch-when="next" ng-click="params.page(page.number)" href="">&raquo;</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 d-none d-md-block" ng-show="params.settings().counts.length">
+                            <ul class="pagination mb-0 justify-content-end">
+                                <li ng-repeat="size in params.settings().counts" class="page-item" ng-class="{'active': params.count() === size}">
+                                    <a href="" class="page-link" ng-click="params.count(size)">
+                                        {{ size }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </script>
+
+                <script type="text/ng-template" id="custom/rerolled">
+                    <select ng-table-select-filter-ds="$column"
+                            ng-model="params.filter()[name]"
+                            class="filter filter-select form-control" name="{{ name }}">
+                        <option value="">Both</option>
+                        <option ng-value="true">Yes</option>
+                        <option ng-value="false">No</option>
+                    </select>
+                </script>
+            </div>
+        </div>
+
+        <ul class="list-inline text-center small mt-3">
+            <li class="list-inline-item"><a href="https://github.com/altbdoor/rivens-json-browse">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://angularjs.org/">AngularJS</a></li>
+            <li class="list-inline-item"><a href="https://getbootstrap.com/">Bootstrap</a></li>
+            <li class="list-inline-item"><a href="http://ng-table.com/">ngTable</a></li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/angular@1.7.8/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ng-table@3.0.1/bundles/ng-table.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

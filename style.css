@@ -1,0 +1,8 @@
+body {
+    overflow-y: scroll;
+}
+
+.min-col-width { width: 1%; }
+.type-col-width { width: 80px; }
+.weapon-col-width { width: 120px; }
+.number-col-width { width: 80px; }

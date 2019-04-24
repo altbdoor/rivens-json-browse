@@ -8,8 +8,8 @@
     ])
 
     .controller('RivensBrowseController', [
-        '$http', 'NgTableParams', '$scope', 'ngTableEventsChannel',
-        function($http, NgTableParams, $scope, ngTableEventsChannel) {
+        '$http', 'NgTableParams', '$scope', 'ngTableEventsChannel', '$filter',
+        function($http, NgTableParams, $scope, ngTableEventsChannel, $filter) {
             const vm = this
 
             vm.platforms = [
@@ -20,45 +20,61 @@
             ]
             vm.selectedPlatform = 'PC'
 
-            vm.loading = false
-            vm.failed = false
-            vm.lastModified = ''
+            vm.mondayList = getMondayList(new Date('2019-03-25'))
+            vm.selectedMonday = vm.mondayList[0]
+
+            vm.showTotalCompare = true
 
             vm.getRivens = getRivens
+
+            vm.failed = false
+            vm.loading = false
             ngTableEventsChannel.onPagesChanged(onPageChange, $scope)
 
             // =====
 
-            getRivens(vm.selectedPlatform)
+            getRivens(vm.selectedPlatform, vm.selectedMonday)
 
-            function getRivens (platform) {
-                const url = `https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivens${platform}.json`
-                vm.loading = true
+            function getMondayList (firstMonday) {
+                const currentDay = new Date()
+                const mondayList = []
+                let lastMonday = new Date(firstMonday)
+
+                do {
+                    mondayList.push(new Date(lastMonday))
+                    lastMonday.setDate(lastMonday.getDate() + 7)
+                } while (lastMonday < currentDay)
+
+                mondayList.reverse()
+                return mondayList
+            }
+
+            function getRivens (platform, monday) {
+                let url = 'TOTAL_PC'
+
+                if (monday !== 'all') {
+                    const mondayFormatted = $filter('date')(monday, 'yy-MM-dd')
+                    url = `Riven_data_PC_${mondayFormatted}`
+                }
+
+                url = `https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master/data/PC/edited/${url}.json`
+
                 vm.failed = false
+                vm.loading = true
 
                 $http.get(url).then((res) => {
-                    vm.lastModified = res.headers('last-modified')
+                    let rivens = res.data
 
-                    const rivenPopAsc = res.data.sort((a, b) => a.pop > b.pop)
-                    const oneSoldRiven = rivenPopAsc.filter((riven) => {
-                        return (riven.min === riven.max && riven.min === riven.avg && riven.stddev === 0)
-                    })
-
-                    let popRatio = 1
-                    if (oneSoldRiven.length > 0) {
-                        popRatio = 1 / oneSoldRiven[0].pop
-                    }
-                    else if (rivenPopAsc.length > 0) {
-                        popRatio = 1 / rivenPopAsc[0].pop
+                    if (monday === 'all') {
+                        rivens = res.data[1]
                     }
 
-                    const rivens = res.data.map((riven) => {
+                    rivens = rivens.map((riven) => {
                         if (!riven.compatibility) {
                             riven.compatibility = '-- Veiled --'
                         }
 
-                        riven.itemType = riven.itemType.replace('Riven Mod', '')
-                        riven.estSold = riven.pop * popRatio
+                        riven.itemType = riven.itemType.replace('Riven Mod', '').trim()
                         return riven
                     })
 
@@ -74,7 +90,6 @@
                             filterOptions: { filterFn: customFilter },
                         }
                     )
-
                 }).catch(() => {
                     vm.failed = true
                 }).finally(() => {
