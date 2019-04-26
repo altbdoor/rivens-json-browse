@@ -37,7 +37,7 @@
                         class="form-control"
                         ng-model="vm.selectedMonday"
 						ng-options="monday as monday.label for monday in vm.mondayList track by monday.value"
-                        ng-change="vm.getRivens(vm.selectedPlatform, vm.selectedMonday)"
+                        ng-change="vm.getRivens(vm.selectedPlatform, vm.selectedMonday.value)"
 						
                     >
 					
