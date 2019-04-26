@@ -20,7 +20,7 @@
             ]
             vm.selectedPlatform = 'PC'
 
-            vm.mondayList = getMondayList(new Date('2019-03-25'))
+            vm.mondayList = getMondayList(new Date(Date.UTC(2019,2,25)))
             vm.selectedMonday = vm.mondayList[0]
 
             vm.showTotalCompare = true
@@ -33,17 +33,21 @@
 
             // =====
 
-            getRivens(vm.selectedPlatform, vm.selectedMonday)
+            getRivens(vm.selectedPlatform, vm.selectedMonday.value)
 
             function getMondayList (firstMonday) {
+				const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
                 const currentDay = new Date()
                 const mondayList = []
-                let lastMonday = new Date(firstMonday)
-
+				let curMonday = firstMonday
                 do {
-                    mondayList.push(new Date(lastMonday))
-                    lastMonday.setDate(lastMonday.getDate() + 7)
-                } while (lastMonday < currentDay)
+                    mondayList.push({
+						value: curMonday.getTime(),
+						label: monthNames[curMonday.getUTCMonth()] + " " + curMonday.getUTCDate() + ", " + curMonday.getUTCFullYear()
+					})
+                    curMonday.setDate(curMonday.getDate() + 7)
+                } while (curMonday < currentDay)
 
                 mondayList.reverse()
                 return mondayList
@@ -51,9 +55,8 @@
 
             function getRivens (platform, monday) {
                 let url = 'TOTAL_PC'
-
                 if (monday !== 'all') {
-                    const mondayFormatted = $filter('date')(monday, 'yy-MM-dd')
+                    const mondayFormatted = $filter('date')(monday, 'yy-MM-dd', 'UTC')
                     url = `Riven_data_${platform}_${mondayFormatted}`
                 }
 

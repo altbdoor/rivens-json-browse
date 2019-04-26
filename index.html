@@ -31,17 +31,18 @@
 
                 <div class="input-group mb-2">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">Date:</span>
+                        <span class="input-group-text">Date (UTC):</span>
                     </div>
                     <select
                         class="form-control"
                         ng-model="vm.selectedMonday"
+						ng-options="monday as monday.label for monday in vm.mondayList track by monday.value"
                         ng-change="vm.getRivens(vm.selectedPlatform, vm.selectedMonday)"
+						
                     >
-                        <option ng-repeat="monday in vm.mondayList" ng-value="monday">
-                            {{ monday | date: 'mediumDate' }}
-                        </option>
+					
                     </select>
+	
                 </div>
 
                 <div class="d-flex justify-content-center">
