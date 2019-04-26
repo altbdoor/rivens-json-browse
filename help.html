@@ -102,18 +102,30 @@
                 </div>
             </li>
             <li>
-                <div class="pb-3">What is "total average data"?</div>
+                <div class="pb-3">What is "cumulative average data"?</div>
                 <p>
-                    <a href="https://github.com/Kanjirito">Kanjirito</a> has made calculations on his script, which sums up all the available data, and calculated an average across all the weeks. As an example:
+                    <a href="https://github.com/Kanjirito">Kanjirito</a> has made calculations on his script, which accumulates values up to one week before the specified week, and then a difference with the specified week is calculated. As an example:
                 </p>
                 <p class="text-monospace">
+                    // let's say, we are looking at the median for bronco riven, in week 3
                     week 1 median: 102 <br>
                     week 2 median: 209 <br>
                     week 3 median: 104 <br>
-                    average of median across 3 weeks: 138.33
+                    average of median across week 1-2: (102 + 209) / 2 = 155.5 <br>
+                    median diff: 104 - 155.5 = -51.5
+                </p>
+                <p class="text-monospace">
+                    // or another, with the max for arca plasmor riven, in week 5
+                    week 1 max: 102 <br>
+                    week 2 max: 209 <br>
+                    week 3 max: 82 <br>
+                    week 4 max: 91 <br>
+                    week 5 max: 672 <br>
+                    average of max across week 1-4: (102 + 209 + 82 + 91) / 4 = 121 <br>
+                    max diff: 672 - 121 = 551
                 </p>
                 <p>
-                    From the average data across all weeks, you can see the fluctuations of prices as the weeks go by.
+                    From this differences, you can see the fluctuations of prices as the weeks go by.
                 </p>
             </li>
             <li>
