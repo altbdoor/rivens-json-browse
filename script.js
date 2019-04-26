@@ -57,7 +57,8 @@
                     url = `Riven_data_${platform}_${mondayFormatted}`
                 }
 
-                url = `https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master/data/${platform}/edited/${url}.json`
+                // url = `https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master/data/${platform}/edited/${url}.json`
+                url = `https://cdn.staticaly.com/gh/Kanjirito/rivens-json-browse-back-end/master/data/${platform}/edited/${url}.json`
 
                 vm.failed = false
                 vm.loading = true
