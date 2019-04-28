@@ -52,7 +52,7 @@ body {
 
 /* ===== bootswatch ===== */
 .theme-darkly .form-control, .theme-darkly .form-control:focus {
-    background-color: #303030;
+    background-color: #303030 !important;
     color: #fff;
 }
 
@@ -62,9 +62,9 @@ body {
 }
 
 /*Fixes the selected header and sort arrows in the light theme*/
-.theme-flatly .ng-table th.sortable.sort-asc,.theme-flatly .ng-table th.sortable.sort-asc,.theme-flatly .ng-table th.sortable.sort-desc{
+.theme-flatly .ng-table th.sortable.sort-asc,.theme-flatly .ng-table th.sortable.sort-desc{
 	background-color: #e7e8e9;
-	color: black;
+	color: #000;
 }
 
 .theme-flatly .ng-table th.sortable.sort-desc .sort-indicator::after {
@@ -75,28 +75,35 @@ body {
     border-color: #000 transparent;
 }
 
+
 /* ===== custom table width ===== */
 @media (min-width: 992px) {
-    .min-col-width { width: 1%; }
+    .min-col-width { width: 10%; }
     .type-col-width { width: 80px; }
     .weapon-col-width { width: 120px; }
-    .number-col-width { width: 80px; }
+    .number-col-width { width: 90px; }
 }
 
-/*Makes the header sticky, works on firefox needs change for chrome*/
-thead {
+/*Makes the header sticky, slight visual issue on firefox*/
+.header{
 	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: 0;	
+}
+.filter {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 33px;
+
 }
 
 /* The header background color for the light theme*/
-.theme-flatly thead{
+.theme-flatly .header,.theme-flatly .filter{
 	background-color: #ffff;
 }
 
 /* The header background color for the dark theme*/
-.theme-darkly thead{
+.theme-darkly .header,.theme-darkly .filter{
 	background-color: #222;
 }
 
@@ -107,30 +114,31 @@ table{
 }
 
 /*Light theme borders*/
-.theme-flatly table {
+.theme-flatly th,.theme-flatly td{
 	border-left: 1px solid var(--light-border-color);
+}
+.theme-flatly table{
 	border-right: 1px solid var(--light-border-color);
 	border-bottom: 1px solid var(--light-border-color);
 }
 
-.theme-flatly .table thead th {
-    border-bottom: 1.5px solid var(--light-border-color);
-}
-.theme-flatly .table thead th .ng-table-sort-header{
-	border-left: 1px solid var(--light-border-color);
-	border-right: 1px solid var(--light-border-color);
-}
 /*Dark theme borders*/
-.theme-darkly table {
+.theme-darkly th,.theme-darkly td{
 	border-left: 1px solid var(--dark-border-color);
+}
+.theme-darkly table{
 	border-right: 1px solid var(--dark-border-color);
 	border-bottom: 1px solid var(--dark-border-color);
 }
 
-.theme-darkly .table thead th {
-    border-bottom: 1.5px solid var(--dark-border-color);
+
+/* Centers some stuff*/
+.table th, .table td {
+    vertical-align: middle;
 }
-.theme-darkly .table thead th .ng-table-sort-header{
-	border-left: 1px solid var(--dark-border-color);
-	border-right: 1px solid var(--dark-border-color);
+.min-col-width, .text-lg-right{
+	text-align: center !important;
+}
+.weapon-col-width, .type-col-width{
+	text-align: left;
 }
