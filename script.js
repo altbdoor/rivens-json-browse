@@ -11,71 +11,79 @@
         '$http', 'NgTableParams', '$scope', 'ngTableEventsChannel', '$filter',
         function($http, NgTableParams, $scope, ngTableEventsChannel, $filter) {
             const vm = this
+            const baseUrl = 'https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master'
+            // const baseUrl = 'https://cdn.staticaly.com/gh/Kanjirito/rivens-json-browse-back-end/master'
 
-            vm.platforms = [
-                { name: 'PC', value: 'PC' },
-                { name: 'Sony Playstation 4', value: 'PS4' },
-                { name: 'Xbox One', value: 'XB1' },
-                { name: 'Nintendo Switch', value: 'SWI' },
-            ]
-            vm.selectedPlatform = 'PC'
-
-            const monday = new Date()
-            monday.setDate(25)
-            monday.setMonth(2)
-            monday.setFullYear(2019)
-
-            vm.mondayList = getMondayList(monday)
-            vm.selectedMonday = vm.mondayList[0]
+            vm.platformChoice = []
+            vm.selectedPlatform = ''
+            vm.mondayChoice = []
+            vm.selectedMonday = ''
 
             vm.showTotalCompare = true
-
-            vm.getRivens = getRivens
 
             vm.failed = false
             vm.loading = false
             ngTableEventsChannel.onPagesChanged(onPageChange, $scope)
 
+            vm.getRivens = getRivens
+            vm.changePlatform = changePlatform
+            vm.changeTheme = changeTheme
+
+            vmInit()
+
             // =====
 
-            getRivens(vm.selectedPlatform, vm.selectedMonday)
+            function vmInit() {
+                let settings = localStorage.getItem('settings')
+                if (settings) {
+                    settings = JSON.parse(settings)
 
-            function getMondayList (firstMonday) {
-                const currentDay = new Date()
-                const mondayList = []
-                let lastMonday = new Date(firstMonday)
-
-                do {
-                    mondayList.push(new Date(lastMonday))
-                    lastMonday.setDate(lastMonday.getDate() + 7)
-                } while (lastMonday < currentDay)
-
-                mondayList.reverse()
-                return mondayList
-            }
-
-            function getRivens (platform, monday) {
-                let url = 'TOTAL_PC'
-
-                if (monday !== 'all') {
-                    const mondayFormatted = $filter('date')(monday, 'yy-MM-dd')
-                    url = `Riven_data_${platform}_${mondayFormatted}`
+                    if (settings['theme'] === 'darkly') {
+                        vm.changeTheme()
+                    }
                 }
 
-                url = `https://raw.githubusercontent.com/Kanjirito/rivens-json-browse-back-end/master/data/${platform}/edited/${url}.json`
-                // url = `https://cdn.staticaly.com/gh/Kanjirito/rivens-json-browse-back-end/master/data/${platform}/edited/${url}.json`
+                $http.get(`${baseUrl}/data/dates.json`).then((data) => {
+                    vm.platformChoice = [
+                        { name: 'PC', value: 'PC' },
+                        { name: 'Sony Playstation 4', value: 'PS4' },
+                        { name: 'Xbox One', value: 'XB1' },
+                        { name: 'Nintendo Switch', value: 'SWI' },
+                    ]
+                    vm.selectedPlatform = 'PC'
+
+                    vm.mondayChoice = {}
+                    for (const key of Object.keys(data.data)) {
+                        const platformChoice = data.data[key].map((monday) => {
+                            return {
+                                name: monday,
+                                value: monday,
+                            }
+                        })
+                        platformChoice.reverse()
+                        vm.mondayChoice[key] = platformChoice
+                    }
+
+                    vm.changePlatform(vm.mondayChoice, vm.selectedPlatform)
+                    vm.getRivens(vm.selectedPlatform, vm.selectedMonday)
+                })
+            }
+
+            function changePlatform(mondayChoice, platform) {
+                const choices = mondayChoice[platform]
+                if (!choices.some((choice) => choice.value === vm.selectedMonday)) {
+                    vm.selectedMonday = choices[0].value
+                }
+            }
+
+            function getRivens(platform, monday) {
+                const url = `${baseUrl}/data/${platform}/edited/Riven_data_${platform}_${monday}.json`
 
                 vm.failed = false
                 vm.loading = true
 
                 $http.get(url).then((res) => {
-                    let rivens = res.data
-
-                    if (monday === 'all') {
-                        rivens = res.data[1]
-                    }
-
-                    rivens = rivens.map((riven) => {
+                    const rivens = res.data.map((riven) => {
                         if (!riven.compatibility) {
                             riven.compatibility = '-- Veiled --'
                         }
@@ -92,7 +100,7 @@
                         {
                             dataset: rivens,
                             counts: [10, 25, 50, 100],
-                            paginationMaxBlocks: 8,
+                            paginationMaxBlocks: 7,
                             filterOptions: { filterFn: customFilter },
                         }
                     )
@@ -103,7 +111,7 @@
                 })
             }
 
-            function customFilter (data, filterValues) {
+            function customFilter(data, filterValues) {
                 let filteredData = data.filter((item) => {
                     const min = filterValues.min || 0
                     const max = filterValues.max || Number.MAX_VALUE
@@ -127,8 +135,39 @@
                 return filteredData
             }
 
-            function onPageChange () {
+            function onPageChange() {
                 window.scrollTo(0, 0)
+            }
+
+            function changeTheme(e) {
+                if (e) {
+                    e.preventDefault()
+                }
+
+                let newTheme = 'darkly'
+                let currentTheme = 'flatly'
+
+                if (document.body.classList.contains('theme-darkly')) {
+                    newTheme = 'flatly'
+                    currentTheme = 'darkly'
+                }
+
+                document.body.classList.remove(`theme-${currentTheme}`)
+                document.body.classList.add(`theme-${newTheme}`)
+
+                const cssFile = document.getElementById('theme-css')
+                cssFile.href = cssFile.href.replace(currentTheme, newTheme)
+
+                let settings = localStorage.getItem('settings')
+                if (!settings) {
+                    settings = {}
+                }
+                else {
+                    settings = JSON.parse(settings)
+                }
+
+                settings['theme'] = newTheme
+                localStorage.setItem('settings', JSON.stringify(settings))
             }
         }
     ])

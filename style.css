@@ -2,7 +2,58 @@ body {
     overflow-y: scroll;
 }
 
-.min-col-width { width: 1%; }
-.type-col-width { width: 80px; }
-.weapon-col-width { width: 120px; }
-.number-col-width { width: 80px; }
+/* ===== ng table ===== */
+.ng-table th.sortable.sort-asc,
+.ng-table th.sortable.sort-desc {
+    background-color: #30465e;
+    text-shadow: none;
+    color: #fff;
+}
+
+.ng-table th.sortable .sort-indicator:after, .ng-table th.sortable .sort-indicator:before {
+    border-color: #fff transparent;
+}
+.ng-table th.sortable.sort-desc .sort-indicator:after {
+    border-top-color: #fff;
+}
+
+@media (max-width: 991px) {
+    .ng-table thead {
+        display: none;
+    }
+
+    .ng-table, .ng-table tbody, .ng-table tr {
+        display: block;
+    }
+
+    .ng-table tr {
+        padding: 0.5rem 1rem;
+    }
+    .theme-darkly .ng-table tr {
+        border-top: 1px solid #444;
+    }
+    .theme-flatly .ng-table tr {
+        border-top: 1px solid #dee2e6;
+    }
+
+    .ng-table td {
+        display: flex;
+        align-items: center;
+        border-top: 0;
+        padding: 0;
+    }
+}
+
+/* ===== bootswatch ===== */
+.theme-darkly .form-control, .theme-darkly .form-control:focus {
+    background-color: #303030;
+    color: #fff;
+}
+
+/* ===== custom table width ===== */
+@media (min-width: 992px) {
+    .min-col-width { width: 1%; }
+    .type-col-width { width: 80px; }
+    .weapon-col-width { width: 120px; }
+    .number-col-width { width: 80px; }
+}
