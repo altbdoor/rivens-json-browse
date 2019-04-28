@@ -1,3 +1,9 @@
+/*Variables used later*/
+:root {
+  --light-border-color: #dee2e6;
+  --dark-border-color: #444444;
+}
+
 body {
     overflow-y: scroll;
 }
@@ -50,10 +56,81 @@ body {
     color: #fff;
 }
 
+/*Changes the color of the grey differences to be a bit lighter in dark theme*/
+.theme-darkly .text-secondary{
+	color: #bdbdbd !important; 
+}
+
+/*Fixes the selected header and sort arrows in the light theme*/
+.theme-flatly .ng-table th.sortable.sort-asc,.theme-flatly .ng-table th.sortable.sort-asc,.theme-flatly .ng-table th.sortable.sort-desc{
+	background-color: #e7e8e9;
+	color: black;
+}
+
+.theme-flatly .ng-table th.sortable.sort-desc .sort-indicator::after {
+    border-top-color: #000;
+}
+
+.theme-flatly .ng-table th.sortable .sort-indicator::after, .theme-flatly .ng-table th.sortable .sort-indicator::before {
+    border-color: #000 transparent;
+}
+
 /* ===== custom table width ===== */
 @media (min-width: 992px) {
     .min-col-width { width: 1%; }
     .type-col-width { width: 80px; }
     .weapon-col-width { width: 120px; }
     .number-col-width { width: 80px; }
+}
+
+/*Makes the header sticky, works on firefox needs change for chrome*/
+thead {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+/* The header background color for the light theme*/
+.theme-flatly thead{
+	background-color: #ffff;
+}
+
+/* The header background color for the dark theme*/
+.theme-darkly thead{
+	background-color: #222;
+}
+
+/*Changes the border collapse to fix the borders on the fixed header, adds some borders for looks*/
+table{
+	border-collapse: separate; /* Don't collapse */
+	border-spacing: 0;
+}
+
+/*Light theme borders*/
+.theme-flatly table {
+	border-left: 1px solid var(--light-border-color);
+	border-right: 1px solid var(--light-border-color);
+	border-bottom: 1px solid var(--light-border-color);
+}
+
+.theme-flatly .table thead th {
+    border-bottom: 1.5px solid var(--light-border-color);
+}
+.theme-flatly .table thead th .ng-table-sort-header{
+	border-left: 1px solid var(--light-border-color);
+	border-right: 1px solid var(--light-border-color);
+}
+/*Dark theme borders*/
+.theme-darkly table {
+	border-left: 1px solid var(--dark-border-color);
+	border-right: 1px solid var(--dark-border-color);
+	border-bottom: 1px solid var(--dark-border-color);
+}
+
+.theme-darkly .table thead th {
+    border-bottom: 1.5px solid var(--dark-border-color);
+}
+.theme-darkly .table thead th .ng-table-sort-header{
+	border-left: 1px solid var(--dark-border-color);
+	border-right: 1px solid var(--dark-border-color);
 }
