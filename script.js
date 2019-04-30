@@ -99,7 +99,7 @@
                         },
                         {
                             dataset: rivens,
-                            counts: [10, 25, 50, 100],
+                            counts: [10, 25, 50, 100, rivens.length],
                             paginationMaxBlocks: 7,
                             filterOptions: { filterFn: customFilter },
                         }
@@ -171,5 +171,17 @@
             }
         }
     ])
-
+    
 })(angular, window, document)
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+// When the user clicks on the button, scroll to the bottom of the document 
+function bottomFunction() {
+    document.body.scrollTop = document.body.scrollHeight // For Safari
+    document.documentElement.scrollTop = document.documentElement.scrollHeight // For Chrome, Firefox, IE and Opera
+}

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="theme-flatly" ng-app="RivensBrowseApp">
+  
     <div class="container py-3" ng-controller="RivensBrowseController as vm">
         <div class="row">
             <div class="col-12 col-md-6 mb-2">
@@ -233,5 +234,9 @@
     <script src="https://cdn.jsdelivr.net/npm/angular@1.7.8/angular.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ng-table@3.0.1/bundles/ng-table.min.js"></script>
     <script src="./script.js"></script>
+    <div class="scroll-btns-frame">
+        <button onclick="topFunction()" class="scroll-btns" id="upBtn" title="Go to top">▲</button>
+        <button onclick="bottomFunction()" class="scroll-btns" id="dwBtn" title="Go to bottom">▼</button>
+    </div>
 </body>
 </html>
