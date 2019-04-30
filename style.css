@@ -1,3 +1,9 @@
+/*Variables used later*/
+:root {
+  --light-border-color: #dee2e6;
+  --dark-border-color: #444444;
+}
+
 body {
     overflow-y: scroll;
 }
@@ -46,14 +52,86 @@ body {
 
 /* ===== bootswatch ===== */
 .theme-darkly .form-control, .theme-darkly .form-control:focus {
-    background-color: #303030;
+    background-color: #303030 !important;
     color: #fff;
 }
 
+/*Changes the color of the grey differences to be a bit lighter in dark theme*/
+.theme-darkly .text-secondary{
+	color: #bdbdbd !important; 
+}
+
+/*Fixes the selected header and sort arrows in the light theme*/
+.theme-flatly .ng-table th.sortable.sort-asc,.theme-flatly .ng-table th.sortable.sort-desc{
+	background-color: #e7e8e9;
+	color: #000;
+}
+
+.theme-flatly .ng-table th.sortable.sort-desc .sort-indicator::after {
+    border-top-color: #000;
+}
+
+.theme-flatly .ng-table th.sortable .sort-indicator::after, .theme-flatly .ng-table th.sortable .sort-indicator::before {
+    border-color: #000 transparent;
+}
+
+
 /* ===== custom table width ===== */
+/*These widths somehow make the table columns not change size when changing sorting*/
 @media (min-width: 992px) {
-    .min-col-width { width: 1%; }
-    .type-col-width { width: 80px; }
-    .weapon-col-width { width: 120px; }
-    .number-col-width { width: 80px; }
+    .type-col-width { width: 70px;}
+    .weapon-col-width { width: 180px; }
+    .number-col-width { width: 90px; }
+    .rerolled-col-width {width: 8%;}
+}
+
+/*Makes the header sticky, slight visual issue on firefox*/
+.ng-table .header{
+	position: sticky;
+	top: 0;	
+}
+.ng-table .filter {
+	position: sticky;
+	top: 33px;
+
+}
+
+/* The header background color for the light theme*/
+.theme-flatly .ng-table .header,.theme-flatly .ng-table .filter{
+	background-color: #fff;
+}
+
+/* The header background color for the dark theme*/
+.theme-darkly .ng-table .header,.theme-darkly .ng-table .filter{
+	background-color: #222;
+}
+
+/*Changes the border collapse to fix the borders on the fixed header, adds some borders for looks*/
+.ng-table{
+	border-collapse: separate; /* Don't collapse */
+	border-spacing: 0;
+}
+
+/*Light theme borders*/
+.theme-flatly th,.theme-flatly td{
+	border-left: 1px solid var(--light-border-color);
+}
+.theme-flatly .ng-table{
+	border-right: 1px solid var(--light-border-color);
+	border-bottom: 1px solid var(--light-border-color);
+}
+
+/*Dark theme borders*/
+.theme-darkly th,.theme-darkly td{
+	border-left: 1px solid var(--dark-border-color);
+}
+.theme-darkly .ng-table{
+	border-right: 1px solid var(--dark-border-color);
+	border-bottom: 1px solid var(--dark-border-color);
+}
+
+
+/* Centers some stuff*/
+.ng-table table th{
+    vertical-align: middle;
 }
