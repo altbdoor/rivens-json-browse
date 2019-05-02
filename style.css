@@ -133,37 +133,18 @@ body {
 	border-bottom: 1px solid var(--dark-border-color);
 }
 
-
 /* Centers some stuff*/
 .ng-table table th{
     vertical-align: middle;
 }
 
 /* Scroll buttons style*/
-.scroll-btns{
-  border: none !important; /* Remove borders */
-  outline: none !important; /* Remove outline */
-  padding: 5px 2px;
-  background-color: rgba(0,0,0,0)
-}
-#upBtn {
-    padding-left: 5px;
-}
-#dwBtn {
-    padding-right: 5px;
-}
-.scroll-btns-frame {
-  background-color: #00efb2; /* Set a background color */
-  color: #000; /* Text color */
+.scroll-btns-grp  {
   position: fixed; /* Fixed position */
   bottom: 10px; /* Place the button at the bottom of the page */
   right: 20px; /* Place the button 20px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 15px; /* Increase font size */
-  font-weight: bold; /* Makes the text bold */
 }
-.scroll-btns-frame:hover{
-    background-color: #00a77c; /* Background color of hovered button */
+
+.scroll-btns-grp .btn{
+    color: #000;
 }
