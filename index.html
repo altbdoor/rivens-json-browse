@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="theme-flatly" ng-app="RivensBrowseApp">
-  <div id="top"></div>
     <div class="container pt-3 pb-4" ng-controller="RivensBrowseController as vm">
         <div class="row">
             <div class="col-12 col-md-6 mb-2">
@@ -235,10 +234,8 @@
     <script src="./script.js"></script>
     
     <div class="btn-group btn-group-sm scroll-btns-grp" role="group" aria-label="Scroll buttons">
-      <a href='#top' title="Go to the top" class="btn page-link">▲</a>
-      <a href='#bottom' title="Go to the bottom" class="btn page-link">▼</a>
+      <button type="button" onclick=topFunction() title="Go to the top" class="btn page-link">▲</a>
+      <button type="button" onclick=bottomFunction() title="Go to the bottom" class="btn page-link">▼</a>
     </div>
-    
-    <div id="bottom"></div>
 </body>
 </html>
