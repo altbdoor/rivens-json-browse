@@ -99,7 +99,7 @@
                         },
                         {
                             dataset: rivens,
-                            counts: [10, 25, 50, 100],
+                            counts: [10, 25, 50, 100, rivens.length],
                             paginationMaxBlocks: 7,
                             filterOptions: { filterFn: customFilter },
                         }
