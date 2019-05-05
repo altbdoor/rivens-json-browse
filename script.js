@@ -176,12 +176,12 @@
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollIntoView(true) // For Safari
+  document.documentElement.scrollIntoView(true) // For Chrome, Firefox, IE and Opera
 }
 
 // When the user clicks on the button, scroll to the bottom of the document 
 function bottomFunction() {
-    document.body.scrollTop = document.body.scrollHeight // For Safari
-    document.documentElement.scrollTop = document.documentElement.scrollHeight // For Chrome, Firefox, IE and Opera
+    document.body.scrollIntoView(false) // For Safari
+    document.documentElement.scrollIntoView(false) // For Chrome, Firefox, IE and Opera
 }
