@@ -57,7 +57,8 @@
                             riven.compatibility = '-- Veiled --'
                         }
 
-                        riven.itemType = riven.itemType.replace('Riven Mod', '')
+                        riven.compatibility = riven.compatibility.replace('<ARCHWING>', '').trim()
+                        riven.itemType = riven.itemType.replace('Riven Mod', '').trim()
                         riven.estSold = riven.pop * popRatio
                         return riven
                     })
