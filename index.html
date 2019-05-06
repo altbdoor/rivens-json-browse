@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="theme-flatly" ng-app="RivensBrowseApp">
-    <div class="container py-3" ng-controller="RivensBrowseController as vm">
+    <div class="container pt-3 pb-4" ng-controller="RivensBrowseController as vm">
         <div class="row">
             <div class="col-12 col-md-6 mb-2">
                 <div class="input-group">
@@ -230,9 +230,13 @@
             <li class="list-inline-item"><a href="http://ng-table.com/">ngTable</a></li>
         </ul>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/angular@1.7.8/angular.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ng-table@3.0.1/bundles/ng-table.min.js"></script>
     <script src="./script.js"></script>
+    
+    <div class="btn-group btn-group-sm scroll-btns-grp position-fixed" role="group">
+      <button type="button" onclick="topFunction()" title="Go to the top" class="btn page-link">▲</a>
+      <button type="button" onclick="bottomFunction()" title="Go to the bottom" class="btn page-link">▼</a>
+    </div>
 </body>
 </html>

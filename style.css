@@ -36,10 +36,12 @@ body {
         padding: 0.5rem 1rem;
     }
     .theme-darkly .ng-table tr {
-        border-top: 1px solid #444;
+        border-top: 1px solid var(--dark-border-color);
+        border-left: 1px solid var(--dark-border-color);
     }
     .theme-flatly .ng-table tr {
-        border-top: 1px solid #dee2e6;
+        border-top: 1px solid var(--light-border-color);
+        border-left: 1px solid var(--light-border-color);
     }
 
     .ng-table td {
@@ -47,6 +49,7 @@ body {
         align-items: center;
         border-top: 0;
         padding: 0;
+        border-left: 0 !important;
     }
 }
 
@@ -130,8 +133,17 @@ body {
 	border-bottom: 1px solid var(--dark-border-color);
 }
 
-
 /* Centers some stuff*/
 .ng-table table th{
     vertical-align: middle;
+}
+
+/* Scroll buttons style*/
+.scroll-btns-grp  {
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 20px from the right */
+}
+
+.scroll-btns-grp .btn{
+    color: #000;
 }

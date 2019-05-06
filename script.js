@@ -171,5 +171,15 @@
             }
         }
     ])
-
+    
 })(angular, window, document)
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollIntoView(true)
+}
+
+// When the user clicks on the button, scroll to the bottom of the document 
+function bottomFunction() {
+    document.body.scrollIntoView(false)
+}
