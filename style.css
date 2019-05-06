@@ -140,7 +140,6 @@ body {
 
 /* Scroll buttons style*/
 .scroll-btns-grp  {
-  position: fixed; /* Fixed position */
   bottom: 10px; /* Place the button at the bottom of the page */
   right: 20px; /* Place the button 20px from the right */
 }
